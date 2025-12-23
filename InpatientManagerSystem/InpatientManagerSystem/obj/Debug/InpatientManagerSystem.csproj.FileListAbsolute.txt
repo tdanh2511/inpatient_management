@@ -1,0 +1,11 @@
+E:\Project\InpatientManagerSystem\InpatientManagerSystem\bin\Debug\InpatientManagerSystem.exe.config
+E:\Project\InpatientManagerSystem\InpatientManagerSystem\bin\Debug\InpatientManagerSystem.exe
+E:\Project\InpatientManagerSystem\InpatientManagerSystem\bin\Debug\InpatientManagerSystem.pdb
+E:\Project\InpatientManagerSystem\InpatientManagerSystem\obj\Debug\InpatientManagerSystem.csproj.AssemblyReference.cache
+E:\Project\InpatientManagerSystem\InpatientManagerSystem\obj\Debug\InpatientManagerSystem.Properties.Resources.resources
+E:\Project\InpatientManagerSystem\InpatientManagerSystem\obj\Debug\InpatientManagerSystem.csproj.GenerateResource.cache
+E:\Project\InpatientManagerSystem\InpatientManagerSystem\obj\Debug\InpatientManagerSystem.csproj.CoreCompileInputs.cache
+E:\Project\InpatientManagerSystem\InpatientManagerSystem\obj\Debug\InpatientManagerSystem.exe
+E:\Project\InpatientManagerSystem\InpatientManagerSystem\obj\Debug\InpatientManagerSystem.pdb
+E:\Project\InpatientManagerSystem\InpatientManagerSystem\obj\Debug\InpatientManagerSystem.exe.config
+E:\Project\InpatientManagerSystem\InpatientManagerSystem\obj\Debug\InpatientManagerSystem.FormMain.resources
