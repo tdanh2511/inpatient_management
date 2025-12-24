@@ -4,7 +4,7 @@ using System.Windows.Forms;
 
 namespace InpatientManagerSystem.UI
 {
-    partial class WelcomePanel
+    partial class FormWelcomePanel
     {
         private System.ComponentModel.IContainer components = null;
 
@@ -110,6 +110,7 @@ components.Dispose();
             this.lblTime.TabIndex = 0;
             this.lblTime.Text = "00:00:00";
             this.lblTime.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblTime.Click += new System.EventHandler(this.lblTime_Click);
             // 
             // WelcomePanel
             // 

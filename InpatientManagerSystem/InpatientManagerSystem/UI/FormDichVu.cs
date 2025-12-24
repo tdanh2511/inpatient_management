@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace InpatientManagerSystem.UI
 {
-    public partial class QuanLiNguoiDung : Form
+    public partial class FormDichVu : Form
     {
-        public QuanLiNguoiDung()
+        public FormDichVu()
         {
             InitializeComponent();
-        }
-
-        private void btnLamMoi_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void QuanLiNguoiDung_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

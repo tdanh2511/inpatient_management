@@ -10,14 +10,19 @@ using System.Windows.Forms;
 
 namespace InpatientManagerSystem.UI
 {
-    public partial class BacSi : Form
+    public partial class FormQuanLiNguoiDung : Form
     {
-        public BacSi()
+        public FormQuanLiNguoiDung()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void btnLamMoi_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void QuanLiNguoiDung_Load(object sender, EventArgs e)
         {
 
         }
