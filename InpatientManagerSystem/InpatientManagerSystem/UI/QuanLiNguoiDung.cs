@@ -21,5 +21,10 @@ namespace InpatientManagerSystem.UI
         {
 
         }
+
+        private void QuanLiNguoiDung_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

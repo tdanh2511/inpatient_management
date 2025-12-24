@@ -11,3 +11,7 @@ D:\C#\BV\InpatientManagerSystem\InpatientManagerSystem\obj\Debug\InpatientManage
 D:\C#\BV\InpatientManagerSystem\InpatientManagerSystem\obj\Debug\InpatientManagerSystem.csproj.CoreCompileInputs.cache
 D:\C#\BV\InpatientManagerSystem\InpatientManagerSystem\obj\Debug\InpatientManagerSystem.exe
 D:\C#\BV\InpatientManagerSystem\InpatientManagerSystem\obj\Debug\InpatientManagerSystem.pdb
+D:\C#\BV\InpatientManagerSystem\InpatientManagerSystem\obj\Debug\InpatientManagerSystem.UI.BacSi.resources
+D:\C#\BV\InpatientManagerSystem\InpatientManagerSystem\obj\Debug\InpatientManagerSystem.UI.BenhNhan.resources
+D:\C#\BV\InpatientManagerSystem\InpatientManagerSystem\obj\Debug\InpatientManagerSystem.UI.DichVu.resources
+D:\C#\BV\InpatientManagerSystem\InpatientManagerSystem\obj\Debug\InpatientManagerSystem.UI.WelcomePanel.resources
