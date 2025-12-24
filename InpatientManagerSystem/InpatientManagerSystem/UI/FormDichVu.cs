@@ -16,5 +16,10 @@ namespace InpatientManagerSystem.UI
         {
             InitializeComponent();
         }
+
+        private void txtTenDichVu_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -16,5 +16,10 @@ namespace InpatientManagerSystem.UI
         {
             InitializeComponent();
         }
+
+        private void cboGioiTinh_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

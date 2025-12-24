@@ -51,5 +51,10 @@ namespace InpatientManagerSystem
                 popup.ShowDialog();
             }
         }
+
+        private void txtMaDonThuoc_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

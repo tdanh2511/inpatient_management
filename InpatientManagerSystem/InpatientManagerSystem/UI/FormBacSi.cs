@@ -21,5 +21,10 @@ namespace InpatientManagerSystem.UI
         {
 
         }
+
+        private void txtMaND_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
