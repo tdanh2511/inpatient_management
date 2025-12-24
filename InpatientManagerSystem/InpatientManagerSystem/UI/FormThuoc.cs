@@ -61,5 +61,10 @@ namespace InpatientManagerSystem
         {
 
         }
+
+        private void txtMaThuoc_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

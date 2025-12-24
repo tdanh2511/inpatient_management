@@ -62,6 +62,7 @@ namespace InpatientManagerSystem
             this.txtMaThuoc.ReadOnly = true;
             this.txtMaThuoc.Size = new System.Drawing.Size(220, 29);
             this.txtMaThuoc.TabIndex = 1;
+            this.txtMaThuoc.TextChanged += new System.EventHandler(this.txtMaThuoc_TextChanged);
             // 
             // label2
             // 
