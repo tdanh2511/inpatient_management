@@ -46,22 +46,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FormHoaDon.cs">
+    <Compile Include="UI\FormHoaDon.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormHoaDon.Designer.cs">
+    <Compile Include="UI\FormHoaDon.Designer.cs">
       <DependentUpon>FormHoaDon.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormPopupChiTietDonThuoc.cs">
+    <Compile Include="UI\FormPopupChiTietDonThuoc.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormPopupChiTietDonThuoc.Designer.cs">
+    <Compile Include="UI\FormPopupChiTietDonThuoc.Designer.cs">
       <DependentUpon>FormPopupChiTietDonThuoc.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormDonThuoc.cs">
+    <Compile Include="UI\FormDonThuoc.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormDonThuoc.Designer.cs">
+    <Compile Include="UI\FormDonThuoc.Designer.cs">
       <DependentUpon>FormDonThuoc.cs</DependentUpon>
     </Compile>
     <Compile Include="FormMain.cs">
@@ -70,63 +70,63 @@
     <Compile Include="FormMain.Designer.cs">
       <DependentUpon>FormMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormPopupChiTietHoaDon.cs">
+    <Compile Include="UI\FormPopupChiTietHoaDon.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormPopupChiTietHoaDon.Designer.cs">
+    <Compile Include="UI\FormPopupChiTietHoaDon.Designer.cs">
       <DependentUpon>FormPopupChiTietHoaDon.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormPopupChiTietThuoc.cs">
+    <Compile Include="UI\FormPopupChiTietThuoc.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormPopupChiTietThuoc.Designer.cs">
+    <Compile Include="UI\FormPopupChiTietThuoc.Designer.cs">
       <DependentUpon>FormPopupChiTietThuoc.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormThanhToan.cs">
+    <Compile Include="UI\FormThanhToan.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormThanhToan.Designer.cs">
+    <Compile Include="UI\FormThanhToan.Designer.cs">
       <DependentUpon>FormThanhToan.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormThuoc.cs">
+    <Compile Include="UI\FormThuoc.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormThuoc.Designer.cs">
+    <Compile Include="UI\FormThuoc.Designer.cs">
       <DependentUpon>FormThuoc.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormXuatVien.cs">
+    <Compile Include="UI\FormXuatVien.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormXuatVien.Designer.cs">
+    <Compile Include="UI\FormXuatVien.Designer.cs">
       <DependentUpon>FormXuatVien.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FormDonThuoc.resx">
+    <EmbeddedResource Include="UI\FormDonThuoc.resx">
       <DependentUpon>FormDonThuoc.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormHoaDon.resx">
+    <EmbeddedResource Include="UI\FormHoaDon.resx">
       <DependentUpon>FormHoaDon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormPopupChiTietDonThuoc.resx">
+    <EmbeddedResource Include="UI\FormPopupChiTietDonThuoc.resx">
       <DependentUpon>FormPopupChiTietDonThuoc.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormPopupChiTietHoaDon.resx">
+    <EmbeddedResource Include="UI\FormPopupChiTietHoaDon.resx">
       <DependentUpon>FormPopupChiTietHoaDon.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormPopupChiTietThuoc.resx">
+    <EmbeddedResource Include="UI\FormPopupChiTietThuoc.resx">
       <DependentUpon>FormPopupChiTietThuoc.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormThanhToan.resx">
+    <EmbeddedResource Include="UI\FormThanhToan.resx">
       <DependentUpon>FormThanhToan.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormThuoc.resx">
+    <EmbeddedResource Include="UI\FormThuoc.resx">
       <DependentUpon>FormThuoc.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormXuatVien.resx">
+    <EmbeddedResource Include="UI\FormXuatVien.resx">
       <DependentUpon>FormXuatVien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
