@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace InpatientManagerSystem.UI
 {
-    public partial class DichVu : Form
-    {
-        public DichVu()
+    public partial class FormHoSo : Form
+ {
+        public FormHoSo()
         {
-            InitializeComponent();
-        }
+       InitializeComponent();
+     }
     }
 }

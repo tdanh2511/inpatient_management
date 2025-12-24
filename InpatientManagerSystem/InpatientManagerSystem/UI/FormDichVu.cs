@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace InpatientManagerSystem.UI
 {
-    public partial class BacSi : Form
+    public partial class FormDichVu : Form
     {
-        public BacSi()
+        public FormDichVu()
         {
             InitializeComponent();
         }

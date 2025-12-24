@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace InpatientManagerSystem.UI
 {
-    public partial class BenhNhan : Form
+    public partial class FormGiuong : Form
     {
-        public BenhNhan()
+        public FormGiuong()
         {
             InitializeComponent();
         }
