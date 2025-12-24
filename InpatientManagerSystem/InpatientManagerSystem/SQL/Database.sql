@@ -71,7 +71,7 @@ CREATE TABLE hoso (
     MaBenhNhan VARCHAR(10),
     NgayNhapVien DATE NOT NULL,
     LyDo VARCHAR(100),
-    TrangThai ENUM('Đang điều trị','Xuất viện','Tử vong'),
+    TrangThai ENUM('Đang điều trị','Xuất viện','Tử vong') DEFAULT 'Đang điều trị',
     CONSTRAINT FK_HS_BS FOREIGN KEY (MaBacSi)
         REFERENCES bacsi(MaBacSi)
         ON DELETE CASCADE ON UPDATE CASCADE,
@@ -203,6 +203,22 @@ CREATE TABLE chitietdonthuoc (
 ) ENGINE=InnoDB;
 
 -- =========================
+-- BẢNG DỊCH VỤ
+-- =========================
+DROP TABLE IF EXISTS dichvu;
+CREATE TABLE dichvu (
+    MaDichVu VARCHAR(10) PRIMARY KEY,
+    CHECK (MaDichVu REGEXP '^DV[0-9]+$'),
+    TenDichVu VARCHAR(200) NOT NULL,
+    LoaiDichVu VARCHAR(100) NOT NULL,
+    DonGia DECIMAL(18,2) DEFAULT 0 CHECK (DonGia >= 0),
+    DonViTinh VARCHAR(50),
+    MoTa VARCHAR(500),
+    TrangThai BOOLEAN DEFAULT TRUE,
+    INDEX idx_tendichvu (TenDichVu)
+) ENGINE=InnoDB;
+
+-- =========================
 -- BẢNG HÓA ĐƠN
 -- =========================
 DROP TABLE IF EXISTS hoadon;
@@ -210,9 +226,9 @@ CREATE TABLE hoadon (
     MaHoaDon VARCHAR(10) PRIMARY KEY,
     CHECK (MaHoaDon REGEXP '^HD[0-9]+$'),
     MaHoSo VARCHAR(10) NOT NULL,
-    MaNguoiDung VARCHAR(10),
+    MaNguoiDung INT,
     NgayTao DATETIME DEFAULT CURRENT_TIMESTAMP,
-    TongTien DECIMAL(18,2) NOT NULL CHECK (TongTien >= 0),
+    TongTien DECIMAL(18,2) NOT NULL DEFAULT 0 CHECK (TongTien >= 0),
     DaThanhToan DECIMAL(18,2) NOT NULL DEFAULT 0,
     TinhTrang ENUM('Chưa thanh toán','Thanh toán một phần','Đã thanh toán') DEFAULT 'Chưa thanh toán',
     GhiChu VARCHAR(255),
@@ -225,6 +241,47 @@ CREATE TABLE hoadon (
         ON DELETE SET NULL ON UPDATE CASCADE
 ) ENGINE=InnoDB;
 
+-- =========================
+-- BẢNG CHI TIẾT HÓA ĐƠN
+-- =========================
+DROP TABLE IF EXISTS chitiethoadon;
+CREATE TABLE chitiethoadon (
+    MaChiTietHoaDon VARCHAR(10) PRIMARY KEY,
+    CHECK (MaChiTietHoaDon REGEXP '^CTHD[0-9]+$'),
+    MaHoaDon VARCHAR(10) NOT NULL,
+    MaDichVu VARCHAR(10) NOT NULL,
+    SoLuong INT NOT NULL DEFAULT 1 CHECK (SoLuong > 0),
+    DonGia DECIMAL(18,2) NOT NULL CHECK (DonGia >= 0),
+    ThanhTien DECIMAL(18,2) 
+        GENERATED ALWAYS AS (SoLuong * DonGia) STORED,
+    CONSTRAINT FK_CTHD_HD FOREIGN KEY (MaHoaDon)
+        REFERENCES hoadon(MaHoaDon)
+        ON DELETE CASCADE ON UPDATE CASCADE,
+    CONSTRAINT FK_CTHD_DV FOREIGN KEY (MaDichVu)
+        REFERENCES dichvu(MaDichVu)
+        ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB;
+
+-- =========================
+-- BẢNG THANH TOÁN
+-- =========================
+DROP TABLE IF EXISTS thanhtoan;
+CREATE TABLE thanhtoan (
+    MaThanhToan VARCHAR(10) PRIMARY KEY,
+    CHECK (MaThanhToan REGEXP '^TT[0-9]+$'),
+    MaHoaDon VARCHAR(10) NOT NULL,
+    NgayThanhToan DATETIME DEFAULT CURRENT_TIMESTAMP,
+    SoTien DECIMAL(18,2) NOT NULL CHECK (SoTien > 0),
+    PhuongThuc ENUM('Tiền mặt','Chuyển khoản'),
+    MaNguoiDung INT,        -- người thu tiền
+    GhiChu VARCHAR(255),
+    CONSTRAINT FK_TT_HD FOREIGN KEY (MaHoaDon)
+        REFERENCES hoadon(MaHoaDon)
+        ON DELETE CASCADE ON UPDATE CASCADE,
+    CONSTRAINT FK_TT_ND FOREIGN KEY (MaNguoiDung)
+        REFERENCES nguoidung(MaNguoiDung)
+        ON DELETE SET NULL ON UPDATE CASCADE
+) ENGINE=InnoDB;
 
 -- =========================
 -- BẢNG XUẤT VIỆN
@@ -245,39 +302,90 @@ CREATE TABLE xuatvien (
         ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB;
 
--- =========================
--- BẢNG DỊCH VỤ
--- =========================
-DROP TABLE IF EXISTS dichvu;
-CREATE TABLE dichvu (
-    MaDichVu VARCHAR(10) PRIMARY KEY,
-    CHECK (MaDichVu REGEXP '^DV[0-9]+$'),
-    TenDichVu VARCHAR(200) NOT NULL,
-    LoaiDichVu VARCHAR(100) NOT NULL,
-    DonGia DECIMAL(18,2) DEFAULT 0 CHECK (DonGia >= 0),
-    DonViTinh VARCHAR(50),
-    MoTa VARCHAR(500),
-    TrangThai BOOLEAN DEFAULT TRUE,
-    INDEX idx_tendichvu (TenDichVu)
-) ENGINE=InnoDB;
+DELIMITER $$
 
+CREATE TRIGGER trg_tinh_tong_tien
+AFTER INSERT ON chitiethoadon
+FOR EACH ROW
+BEGIN
+    UPDATE hoadon
+    SET TongTien = (
+        SELECT SUM(ThanhTien)
+        FROM chitiethoadon
+        WHERE MaHoaDon = NEW.MaHoaDon
+    )
+    WHERE MaHoaDon = NEW.MaHoaDon;
+END$$
 
--- =========================
--- BẢNG THANH TOÁN
--- =========================
-DROP TABLE IF EXISTS thanhtoan;
-CREATE TABLE thanhtoan (
-    MaThanhToan VARCHAR(10) PRIMARY KEY,
-    CHECK (MaThanhToan REGEXP '^TT[0-9]+$'),
-    MaHoaDon VARCHAR(10) NOT NULL,
-    NgayThanhToan DATETIME DEFAULT CURRENT_TIMESTAMP,
-    SoTien DECIMAL(18,2) NOT NULL CHECK (SoTien > 0),
-    PhuongThuc ENUM('Tiền mặt','Chuyển khoản'),
-    GhiChu VARCHAR(255),
-    CONSTRAINT FK_TT_HD FOREIGN KEY (MaHoaDon)
-        REFERENCES hoadon(MaHoaDon)
-        ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB;
+DELIMITER ;
+
+DELIMITER $$
+
+CREATE TRIGGER trg_update_tong_tien_after_update
+AFTER UPDATE ON chitiethoadon
+FOR EACH ROW
+BEGIN
+    UPDATE hoadon
+    SET TongTien = (
+        SELECT IFNULL(SUM(ThanhTien), 0)
+        FROM chitiethoadon
+        WHERE MaHoaDon = NEW.MaHoaDon
+    )
+    WHERE MaHoaDon = NEW.MaHoaDon;
+END$$
+
+CREATE TRIGGER trg_update_tong_tien_after_delete
+AFTER DELETE ON chitiethoadon
+FOR EACH ROW
+BEGIN
+    UPDATE hoadon
+    SET TongTien = (
+        SELECT IFNULL(SUM(ThanhTien), 0)
+        FROM chitiethoadon
+        WHERE MaHoaDon = OLD.MaHoaDon
+    )
+    WHERE MaHoaDon = OLD.MaHoaDon;
+END$$
+
+DELIMITER ;
+DELIMITER $$
+
+CREATE TRIGGER trg_cong_tien_thanh_toan
+AFTER INSERT ON thanhtoan
+FOR EACH ROW
+BEGIN
+    UPDATE hoadon
+    SET 
+        DaThanhToan = DaThanhToan + NEW.SoTien,
+        TinhTrang = CASE
+            WHEN DaThanhToan + NEW.SoTien >= TongTien THEN 'Đã thanh toán'
+            WHEN DaThanhToan + NEW.SoTien > 0 THEN 'Thanh toán một phần'
+            ELSE 'Chưa thanh toán'
+        END
+    WHERE MaHoaDon = NEW.MaHoaDon;
+END$$
+
+DELIMITER ;
+
+DELIMITER $$
+
+CREATE TRIGGER trg_tru_tien_thanh_toan
+AFTER DELETE ON thanhtoan
+FOR EACH ROW
+BEGIN
+    UPDATE hoadon
+    SET 
+        DaThanhToan = DaThanhToan - OLD.SoTien,
+        TinhTrang = CASE
+            WHEN DaThanhToan - OLD.SoTien >= TongTien THEN 'Đã thanh toán'
+            WHEN DaThanhToan - OLD.SoTien > 0 THEN 'Thanh toán một phần'
+            ELSE 'Chưa thanh toán'
+        END
+    WHERE MaHoaDon = OLD.MaHoaDon;
+END$$
+
+DELIMITER ;
+
 
 -- =========================
 -- KIỂM TRA
