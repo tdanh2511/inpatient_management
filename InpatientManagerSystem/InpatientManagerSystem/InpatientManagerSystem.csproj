@@ -46,16 +46,88 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHoaDon.Designer.cs">
+      <DependentUpon>FormHoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPopupChiTietDonThuoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPopupChiTietDonThuoc.Designer.cs">
+      <DependentUpon>FormPopupChiTietDonThuoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDonThuoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDonThuoc.Designer.cs">
+      <DependentUpon>FormDonThuoc.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormMain.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormMain.Designer.cs">
       <DependentUpon>FormMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormPopupChiTietHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPopupChiTietHoaDon.Designer.cs">
+      <DependentUpon>FormPopupChiTietHoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPopupChiTietThuoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPopupChiTietThuoc.Designer.cs">
+      <DependentUpon>FormPopupChiTietThuoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormThanhToan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormThanhToan.Designer.cs">
+      <DependentUpon>FormThanhToan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormThuoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormThuoc.Designer.cs">
+      <DependentUpon>FormThuoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormXuatVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormXuatVien.Designer.cs">
+      <DependentUpon>FormXuatVien.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormDonThuoc.resx">
+      <DependentUpon>FormDonThuoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormHoaDon.resx">
+      <DependentUpon>FormHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPopupChiTietDonThuoc.resx">
+      <DependentUpon>FormPopupChiTietDonThuoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPopupChiTietHoaDon.resx">
+      <DependentUpon>FormPopupChiTietHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPopupChiTietThuoc.resx">
+      <DependentUpon>FormPopupChiTietThuoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormThanhToan.resx">
+      <DependentUpon>FormThanhToan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormThuoc.resx">
+      <DependentUpon>FormThuoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormXuatVien.resx">
+      <DependentUpon>FormXuatVien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -78,6 +150,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SQL\Database.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
