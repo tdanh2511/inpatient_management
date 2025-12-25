@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace InpatientManagerSystem
@@ -12,6 +13,10 @@ namespace InpatientManagerSystem
             // khởi tạo mặc định
             chkTrangThai.Checked = true;
             dtpNgayHetHan.Value = DateTime.Now;
+
+            // Thiết lập các trường ReadOnly
+            txtMaThuoc.ReadOnly = true;  // Mã thuốc tự động, không cho sửa
+            txtMaThuoc.BackColor = Color.LightGray;  // Đổi màu nền để dễ nhận biết
 
             // gắn sự kiện
             dataGridView1.CellClick += DataGridView1_CellClick;
