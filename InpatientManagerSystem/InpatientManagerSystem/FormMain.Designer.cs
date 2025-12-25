@@ -68,19 +68,19 @@ namespace InpatientManagerSystem
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 80F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1384, 711);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1370, 711);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // panelHeader
             // 
-            this.tableLayoutPanel1.SetColumnSpan(this.panelHeader, 2);
             this.panelHeader.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.tableLayoutPanel1.SetColumnSpan(this.panelHeader, 2);
             this.panelHeader.Controls.Add(this.lblTitle);
             this.panelHeader.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelHeader.Location = new System.Drawing.Point(0, 0);
             this.panelHeader.Margin = new System.Windows.Forms.Padding(0);
             this.panelHeader.Name = "panelHeader";
-            this.panelHeader.Size = new System.Drawing.Size(1384, 80);
+            this.panelHeader.Size = new System.Drawing.Size(1370, 80);
             this.panelHeader.TabIndex = 0;
             // 
             // lblTitle
@@ -90,7 +90,7 @@ namespace InpatientManagerSystem
             this.lblTitle.ForeColor = System.Drawing.Color.White;
             this.lblTitle.Location = new System.Drawing.Point(0, 0);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(1384, 80);
+            this.lblTitle.Size = new System.Drawing.Size(1370, 80);
             this.lblTitle.TabIndex = 0;
             this.lblTitle.Text = "HỆ THỐNG QUẢN LÝ NỘI TRÚ";
             this.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -143,7 +143,7 @@ namespace InpatientManagerSystem
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button10.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button10.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button10.Location = new System.Drawing.Point(0, 494);
+            this.button10.Location = new System.Drawing.Point(0, 456);
             this.button10.Name = "button10";
             this.button10.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.button10.Size = new System.Drawing.Size(200, 38);
@@ -161,7 +161,7 @@ namespace InpatientManagerSystem
             this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button12.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button12.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button12.Location = new System.Drawing.Point(0, 456);
+            this.button12.Location = new System.Drawing.Point(0, 418);
             this.button12.Name = "button12";
             this.button12.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.button12.Size = new System.Drawing.Size(200, 38);
@@ -179,7 +179,7 @@ namespace InpatientManagerSystem
             this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button11.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button11.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button11.Location = new System.Drawing.Point(0, 418);
+            this.button11.Location = new System.Drawing.Point(0, 380);
             this.button11.Name = "button11";
             this.button11.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.button11.Size = new System.Drawing.Size(200, 38);
@@ -197,7 +197,7 @@ namespace InpatientManagerSystem
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button9.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button9.Location = new System.Drawing.Point(0, 380);
+            this.button9.Location = new System.Drawing.Point(0, 342);
             this.button9.Name = "button9";
             this.button9.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.button9.Size = new System.Drawing.Size(200, 38);
@@ -215,7 +215,7 @@ namespace InpatientManagerSystem
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button8.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button8.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button8.Location = new System.Drawing.Point(0, 342);
+            this.button8.Location = new System.Drawing.Point(0, 304);
             this.button8.Name = "button8";
             this.button8.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.button8.Size = new System.Drawing.Size(200, 38);
@@ -233,7 +233,7 @@ namespace InpatientManagerSystem
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button6.Location = new System.Drawing.Point(0, 304);
+            this.button6.Location = new System.Drawing.Point(0, 266);
             this.button6.Name = "button6";
             this.button6.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.button6.Size = new System.Drawing.Size(200, 38);
@@ -251,7 +251,7 @@ namespace InpatientManagerSystem
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button5.Location = new System.Drawing.Point(0, 266);
+            this.button5.Location = new System.Drawing.Point(0, 228);
             this.button5.Name = "button5";
             this.button5.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.button5.Size = new System.Drawing.Size(200, 38);
@@ -269,7 +269,7 @@ namespace InpatientManagerSystem
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button4.Location = new System.Drawing.Point(0, 228);
+            this.button4.Location = new System.Drawing.Point(0, 190);
             this.button4.Name = "button4";
             this.button4.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.button4.Size = new System.Drawing.Size(200, 38);
@@ -287,7 +287,7 @@ namespace InpatientManagerSystem
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button7.Location = new System.Drawing.Point(0, 190);
+            this.button7.Location = new System.Drawing.Point(0, 152);
             this.button7.Name = "button7";
             this.button7.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.button7.Size = new System.Drawing.Size(200, 38);
@@ -305,7 +305,7 @@ namespace InpatientManagerSystem
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button3.Location = new System.Drawing.Point(0, 152);
+            this.button3.Location = new System.Drawing.Point(0, 114);
             this.button3.Name = "button3";
             this.button3.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.button3.Size = new System.Drawing.Size(200, 38);
@@ -323,7 +323,7 @@ namespace InpatientManagerSystem
             this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button13.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button13.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button13.Location = new System.Drawing.Point(0, 114);
+            this.button13.Location = new System.Drawing.Point(0, 76);
             this.button13.Name = "button13";
             this.button13.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.button13.Size = new System.Drawing.Size(200, 38);
@@ -341,7 +341,7 @@ namespace InpatientManagerSystem
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button2.Location = new System.Drawing.Point(0, 76);
+            this.button2.Location = new System.Drawing.Point(0, 38);
             this.button2.Name = "button2";
             this.button2.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.button2.Size = new System.Drawing.Size(200, 38);
@@ -359,7 +359,7 @@ namespace InpatientManagerSystem
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button1.Location = new System.Drawing.Point(0, 38);
+            this.button1.Location = new System.Drawing.Point(0, 0);
             this.button1.Name = "button1";
             this.button1.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.button1.Size = new System.Drawing.Size(200, 38);
@@ -375,14 +375,14 @@ namespace InpatientManagerSystem
             this.panelContent.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelContent.Location = new System.Drawing.Point(203, 83);
             this.panelContent.Name = "panelContent";
-            this.panelContent.Size = new System.Drawing.Size(1178, 625);
+            this.panelContent.Size = new System.Drawing.Size(1164, 625);
             this.panelContent.TabIndex = 2;
             // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1384, 711);
+            this.ClientSize = new System.Drawing.Size(1370, 711);
             this.Controls.Add(this.tableLayoutPanel1);
             this.MinimumSize = new System.Drawing.Size(1000, 600);
             this.Name = "FormMain";

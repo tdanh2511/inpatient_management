@@ -21,13 +21,7 @@ namespace InpatientManagerSystem.UI
             InitializeComponent();
         }
 
-        private void btnLamMoi_Click(object sender, EventArgs e)
-        {
-            LoadDanhSach();
-            txtTimKiem.Clear();
-        }
-
-        private void QuanLiNguoiDung_Load(object sender, EventArgs e)
+        private void FormQuanLiNguoiDung_Load(object sender, EventArgs e)
         {
             LoadDanhSach();
         }
@@ -92,7 +86,7 @@ namespace InpatientManagerSystem.UI
                 dgvNguoiDung.Columns["TenDangNhap"].HeaderText = "Tên đăng nhập";
                 dgvNguoiDung.Columns["TenDangNhap"].Width = 120;
 
-                dgvNguoiDung.Columns["MatKhau"].Visible = false;
+                dgvNguoiDung.Columns["MatKhau"].Visible = false; // Ẩn mật khẩu
 
                 dgvNguoiDung.Columns["HoTen"].HeaderText = "Họ và tên";
                 dgvNguoiDung.Columns["HoTen"].Width = 150;

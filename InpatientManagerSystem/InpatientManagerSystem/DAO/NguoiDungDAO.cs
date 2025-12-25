@@ -20,7 +20,7 @@ namespace InpatientManagerSystem.DAO
                 using (MySqlConnection conn = dbConnection.GetConnection())
                 {
                     conn.Open();
-                    string query = "SELECT * FROM nguoidung ORDER BY MaND ASC";
+                    string query = "SELECT * FROM nguoidung ORDER BY MaNguoiDung ASC";
                     MySqlCommand cmd = new MySqlCommand(query, conn);
 
                     using (MySqlDataReader reader = cmd.ExecuteReader())
@@ -29,7 +29,7 @@ namespace InpatientManagerSystem.DAO
                         {
                             NguoiDung nd = new NguoiDung
                             {
-                                MaNguoiDung = Convert.ToInt32(reader["MaND"]),
+                                MaNguoiDung = Convert.ToInt32(reader["MaNguoiDung"]),
                                 TenDangNhap = reader["TenDangNhap"].ToString(),
                                 MatKhau = reader["MatKhau"].ToString(),
                                 HoTen = reader["HoTen"].ToString(),
@@ -59,8 +59,8 @@ namespace InpatientManagerSystem.DAO
                 using (MySqlConnection conn = dbConnection.GetConnection())
                 {
                     conn.Open();
-                    string query = "INSERT INTO NguoiDung (TenDangNhap, MatKhau, HoTen, VaiTro, Email, SoDienThoai, TrangThai, NgayTao) " +
-                                   "VALUES (@TenDangNhap, @MatKhau, @HoTen, @VaiTro, @Email, @SoDienThoai, @TrangThai, @NgayTao)";
+                    string query = "INSERT INTO NguoiDung (TenDangNhap, MatKhau, HoTen, VaiTro, Email, SoDienThoai, TrangThai) " +
+                                   "VALUES (@TenDangNhap, @MatKhau, @HoTen, @VaiTro, @Email, @SoDienThoai, @TrangThai)";
                     using (MySqlCommand cmd = new MySqlCommand(query, conn))
                     {
                         cmd.Parameters.AddWithValue("@TenDangNhap", nguoiDung.TenDangNhap);
@@ -70,7 +70,6 @@ namespace InpatientManagerSystem.DAO
                         cmd.Parameters.AddWithValue("@Email", nguoiDung.Email);
                         cmd.Parameters.AddWithValue("@SoDienThoai", nguoiDung.SoDienThoai);
                         cmd.Parameters.AddWithValue("@TrangThai", nguoiDung.TrangThai ? 1 : 0);
-                        cmd.Parameters.AddWithValue("@NgayTao", nguoiDung.NgayTao);
                         int rowsAffected = cmd.ExecuteNonQuery();
                         return rowsAffected > 0;
                     }
