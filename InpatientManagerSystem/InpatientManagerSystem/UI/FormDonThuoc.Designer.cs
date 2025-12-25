@@ -62,7 +62,7 @@ namespace InpatientManagerSystem
             this.tableLayoutPanel1.Controls.Add(this.splitContainer1, 0, 3);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.Padding = new System.Windows.Forms.Padding(13, 12, 13, 12);
             this.tableLayoutPanel1.RowCount = 4;
@@ -97,19 +97,20 @@ namespace InpatientManagerSystem
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold);
             this.groupBox1.Location = new System.Drawing.Point(17, 78);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(1350, 177);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin đơn thuốc";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // dtpNgayKe
             // 
             this.dtpNgayKe.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtpNgayKe.Location = new System.Drawing.Point(200, 123);
-            this.dtpNgayKe.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtpNgayKe.Margin = new System.Windows.Forms.Padding(4);
             this.dtpNgayKe.Name = "dtpNgayKe";
             this.dtpNgayKe.Size = new System.Drawing.Size(425, 29);
             this.dtpNgayKe.TabIndex = 8;
@@ -117,7 +118,7 @@ namespace InpatientManagerSystem
             // txtMaKhamBenh
             // 
             this.txtMaKhamBenh.Location = new System.Drawing.Point(200, 80);
-            this.txtMaKhamBenh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtMaKhamBenh.Margin = new System.Windows.Forms.Padding(4);
             this.txtMaKhamBenh.Name = "txtMaKhamBenh";
             this.txtMaKhamBenh.Size = new System.Drawing.Size(425, 29);
             this.txtMaKhamBenh.TabIndex = 7;
@@ -125,7 +126,7 @@ namespace InpatientManagerSystem
             // txtMaDonThuoc
             // 
             this.txtMaDonThuoc.Location = new System.Drawing.Point(200, 37);
-            this.txtMaDonThuoc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtMaDonThuoc.Margin = new System.Windows.Forms.Padding(4);
             this.txtMaDonThuoc.Name = "txtMaDonThuoc";
             this.txtMaDonThuoc.ReadOnly = true;
             this.txtMaDonThuoc.Size = new System.Drawing.Size(425, 29);
@@ -172,7 +173,7 @@ namespace InpatientManagerSystem
             this.panel1.Controls.Add(this.btnThem);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(17, 263);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1350, 66);
             this.panel1.TabIndex = 2;
@@ -185,7 +186,7 @@ namespace InpatientManagerSystem
             this.btnTimKiem.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold);
             this.btnTimKiem.ForeColor = System.Drawing.Color.White;
             this.btnTimKiem.Location = new System.Drawing.Point(1213, 6);
-            this.btnTimKiem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnTimKiem.Margin = new System.Windows.Forms.Padding(4);
             this.btnTimKiem.Name = "btnTimKiem";
             this.btnTimKiem.Size = new System.Drawing.Size(133, 49);
             this.btnTimKiem.TabIndex = 8;
@@ -197,7 +198,7 @@ namespace InpatientManagerSystem
             this.txtTimKiem.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.txtTimKiem.Font = new System.Drawing.Font("Times New Roman", 11.25F);
             this.txtTimKiem.Location = new System.Drawing.Point(900, 16);
-            this.txtTimKiem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTimKiem.Margin = new System.Windows.Forms.Padding(4);
             this.txtTimKiem.Name = "txtTimKiem";
             this.txtTimKiem.Size = new System.Drawing.Size(292, 29);
             this.txtTimKiem.TabIndex = 7;
@@ -209,7 +210,7 @@ namespace InpatientManagerSystem
             this.btnLamMoi.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold);
             this.btnLamMoi.ForeColor = System.Drawing.Color.White;
             this.btnLamMoi.Location = new System.Drawing.Point(440, 6);
-            this.btnLamMoi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnLamMoi.Margin = new System.Windows.Forms.Padding(4);
             this.btnLamMoi.Name = "btnLamMoi";
             this.btnLamMoi.Size = new System.Drawing.Size(133, 49);
             this.btnLamMoi.TabIndex = 6;
@@ -223,7 +224,7 @@ namespace InpatientManagerSystem
             this.btnXoa.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold);
             this.btnXoa.ForeColor = System.Drawing.Color.White;
             this.btnXoa.Location = new System.Drawing.Point(293, 6);
-            this.btnXoa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnXoa.Margin = new System.Windows.Forms.Padding(4);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(133, 49);
             this.btnXoa.TabIndex = 5;
@@ -237,7 +238,7 @@ namespace InpatientManagerSystem
             this.btnSua.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold);
             this.btnSua.ForeColor = System.Drawing.Color.White;
             this.btnSua.Location = new System.Drawing.Point(147, 6);
-            this.btnSua.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSua.Margin = new System.Windows.Forms.Padding(4);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(133, 49);
             this.btnSua.TabIndex = 4;
@@ -251,18 +252,19 @@ namespace InpatientManagerSystem
             this.btnThem.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold);
             this.btnThem.ForeColor = System.Drawing.Color.White;
             this.btnThem.Location = new System.Drawing.Point(0, 6);
-            this.btnThem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnThem.Margin = new System.Windows.Forms.Padding(4);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(133, 49);
             this.btnThem.TabIndex = 3;
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = false;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // splitContainer1
             // 
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer1.Location = new System.Drawing.Point(17, 337);
-            this.splitContainer1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.splitContainer1.Margin = new System.Windows.Forms.Padding(4);
             this.splitContainer1.Name = "splitContainer1";
             this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
@@ -275,7 +277,7 @@ namespace InpatientManagerSystem
             this.splitContainer1.Panel2.Controls.Add(this.dgvChiTietDonThuoc);
             this.splitContainer1.Panel2.Controls.Add(this.panel2);
             this.splitContainer1.Size = new System.Drawing.Size(1350, 513);
-            this.splitContainer1.SplitterDistance = 220;
+            this.splitContainer1.SplitterDistance = 219;
             this.splitContainer1.SplitterWidth = 5;
             this.splitContainer1.TabIndex = 3;
             // 
@@ -285,11 +287,11 @@ namespace InpatientManagerSystem
             this.dgvDonThuoc.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvDonThuoc.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvDonThuoc.Location = new System.Drawing.Point(0, 0);
-            this.dgvDonThuoc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvDonThuoc.Margin = new System.Windows.Forms.Padding(4);
             this.dgvDonThuoc.Name = "dgvDonThuoc";
             this.dgvDonThuoc.RowHeadersWidth = 51;
             this.dgvDonThuoc.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvDonThuoc.Size = new System.Drawing.Size(1350, 220);
+            this.dgvDonThuoc.Size = new System.Drawing.Size(1350, 219);
             this.dgvDonThuoc.TabIndex = 0;
             // 
             // dgvChiTietDonThuoc
@@ -298,12 +300,13 @@ namespace InpatientManagerSystem
             this.dgvChiTietDonThuoc.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvChiTietDonThuoc.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvChiTietDonThuoc.Location = new System.Drawing.Point(0, 62);
-            this.dgvChiTietDonThuoc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvChiTietDonThuoc.Margin = new System.Windows.Forms.Padding(4);
             this.dgvChiTietDonThuoc.Name = "dgvChiTietDonThuoc";
             this.dgvChiTietDonThuoc.RowHeadersWidth = 51;
             this.dgvChiTietDonThuoc.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvChiTietDonThuoc.Size = new System.Drawing.Size(1350, 226);
+            this.dgvChiTietDonThuoc.Size = new System.Drawing.Size(1350, 227);
             this.dgvChiTietDonThuoc.TabIndex = 1;
+            this.dgvChiTietDonThuoc.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvChiTietDonThuoc_CellContentClick);
             // 
             // panel2
             // 
@@ -313,7 +316,7 @@ namespace InpatientManagerSystem
             this.panel2.Controls.Add(this.labelChiTiet);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1350, 62);
             this.panel2.TabIndex = 0;
@@ -325,7 +328,7 @@ namespace InpatientManagerSystem
             this.btnXoaCT.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold);
             this.btnXoaCT.ForeColor = System.Drawing.Color.White;
             this.btnXoaCT.Location = new System.Drawing.Point(427, 6);
-            this.btnXoaCT.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnXoaCT.Margin = new System.Windows.Forms.Padding(4);
             this.btnXoaCT.Name = "btnXoaCT";
             this.btnXoaCT.Size = new System.Drawing.Size(133, 49);
             this.btnXoaCT.TabIndex = 3;
@@ -339,7 +342,7 @@ namespace InpatientManagerSystem
             this.btnSuaCT.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold);
             this.btnSuaCT.ForeColor = System.Drawing.Color.White;
             this.btnSuaCT.Location = new System.Drawing.Point(280, 6);
-            this.btnSuaCT.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSuaCT.Margin = new System.Windows.Forms.Padding(4);
             this.btnSuaCT.Name = "btnSuaCT";
             this.btnSuaCT.Size = new System.Drawing.Size(133, 49);
             this.btnSuaCT.TabIndex = 2;
@@ -354,7 +357,7 @@ namespace InpatientManagerSystem
             this.btnThemCT.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold);
             this.btnThemCT.ForeColor = System.Drawing.Color.White;
             this.btnThemCT.Location = new System.Drawing.Point(133, 6);
-            this.btnThemCT.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnThemCT.Margin = new System.Windows.Forms.Padding(4);
             this.btnThemCT.Name = "btnThemCT";
             this.btnThemCT.Size = new System.Drawing.Size(133, 49);
             this.btnThemCT.TabIndex = 1;
@@ -380,7 +383,7 @@ namespace InpatientManagerSystem
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1384, 866);
             this.Controls.Add(this.tableLayoutPanel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormDonThuoc";
             this.Text = "Quản lý đơn thuốc";
             this.tableLayoutPanel1.ResumeLayout(false);

@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using InpatientManagerSystem.DTO;
+﻿using InpatientManagerSystem.DTO;
 using MySql.Data.MySqlClient;
+using System;
+using System.Collections.Generic;
 
 namespace InpatientManagerSystem.DAO
 {
@@ -222,25 +219,29 @@ namespace InpatientManagerSystem.DAO
             return null;
         }
 
-        public List<ThuocDTO> GetExpiredMedicines()
+        public List<ThuocDTO> GetMedicinesByExpiry(DateTime? from = null, DateTime? to = null)
         {
             List<ThuocDTO> list = new List<ThuocDTO>();
-            try
+            using (MySqlConnection conn = dbConnection.GetConnection())
             {
-                using (MySqlConnection conn = dbConnection.GetConnection())
+                conn.Open();
+                string query = @"SELECT STT, MaThuoc, TenThuoc, DonViTinh, DonGia, SoLuongTon, HangSanXuat, CongDung, NgayHetHan, TrangThai 
+                         FROM thuoc 
+                         WHERE NgayHetHan IS NOT NULL";
+                if (from.HasValue) query += " AND NgayHetHan >= @from";
+                if (to.HasValue) query += " AND NgayHetHan <= @to";
+                query += " ORDER BY NgayHetHan ASC";
+
+                using (MySqlCommand cmd = new MySqlCommand(query, conn))
                 {
-                    conn.Open();
-                    string query = @"SELECT STT, MaThuoc, TenThuoc, DonViTinh, DonGia, SoLuongTon, HangSanXuat, CongDung, NgayHetHan, TrangThai 
-                                     FROM thuoc 
-                                     WHERE NgayHetHan IS NOT NULL AND NgayHetHan < CURDATE()
-                                     ORDER BY NgayHetHan ASC";
-                    MySqlCommand cmd = new MySqlCommand(query, conn);
+                    if (from.HasValue) cmd.Parameters.AddWithValue("@from", from.Value.Date);
+                    if (to.HasValue) cmd.Parameters.AddWithValue("@to", to.Value.Date);
 
                     using (MySqlDataReader reader = cmd.ExecuteReader())
                     {
                         while (reader.Read())
                         {
-                            ThuocDTO thuoc = new ThuocDTO
+                            list.Add(new ThuocDTO
                             {
                                 maThuoc = reader["MaThuoc"].ToString(),
                                 tenThuoc = reader["TenThuoc"].ToString(),
@@ -251,63 +252,14 @@ namespace InpatientManagerSystem.DAO
                                 congDung = reader["CongDung"]?.ToString() ?? "",
                                 ngayHetHan = Convert.ToDateTime(reader["NgayHetHan"]),
                                 trangThai = Convert.ToBoolean(reader["TrangThai"])
-                            };
-                            list.Add(thuoc);
+                            });
                         }
                     }
                 }
             }
-            catch (Exception ex)
-            {
-                throw new Exception("Lỗi lấy danh sách thuốc hết hạn: " + ex.Message);
-            }
             return list;
         }
 
-        public List<ThuocDTO> GetExpiringSoonMedicines(int days)
-        {
-            List<ThuocDTO> list = new List<ThuocDTO>();
-            try
-            {
-                using (MySqlConnection conn = dbConnection.GetConnection())
-                {
-                    conn.Open();
-                    string query = @"SELECT STT, MaThuoc, TenThuoc, DonViTinh, DonGia, SoLuongTon, HangSanXuat, CongDung, NgayHetHan, TrangThai 
-                                     FROM thuoc 
-                                     WHERE NgayHetHan IS NOT NULL 
-                                     AND NgayHetHan >= CURDATE() 
-                                     AND NgayHetHan <= DATE_ADD(CURDATE(), INTERVAL @days DAY)
-                                     ORDER BY NgayHetHan ASC";
-                    MySqlCommand cmd = new MySqlCommand(query, conn);
-                    cmd.Parameters.AddWithValue("@days", days);
-
-                    using (MySqlDataReader reader = cmd.ExecuteReader())
-                    {
-                        while (reader.Read())
-                        {
-                            ThuocDTO thuoc = new ThuocDTO
-                            {
-                                maThuoc = reader["MaThuoc"].ToString(),
-                                tenThuoc = reader["TenThuoc"].ToString(),
-                                donViTinh = reader["DonViTinh"].ToString(),
-                                donGia = Convert.ToDecimal(reader["DonGia"]),
-                                soLuongTon = Convert.ToInt32(reader["SoLuongTon"]),
-                                hangSanXuat = reader["HangSanXuat"]?.ToString() ?? "",
-                                congDung = reader["CongDung"]?.ToString() ?? "",
-                                ngayHetHan = Convert.ToDateTime(reader["NgayHetHan"]),
-                                trangThai = Convert.ToBoolean(reader["TrangThai"])
-                            };
-                            list.Add(thuoc);
-                        }
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                throw new Exception("Lỗi lấy danh sách thuốc sắp hết hạn: " + ex.Message);
-            }
-            return list;
-        }
 
         public bool CheckMedicineExpired(string maThuoc)
         {

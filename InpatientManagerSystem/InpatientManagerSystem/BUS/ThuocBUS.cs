@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using InpatientManagerSystem.DAO;
+﻿using InpatientManagerSystem.DAO;
 using InpatientManagerSystem.DTO;
+using System;
+using System.Collections.Generic;
 
 namespace InpatientManagerSystem.BUS
 {
@@ -67,7 +64,7 @@ namespace InpatientManagerSystem.BUS
 
         public List<ThuocDTO> LayDanhSachThuocHetHan()
         {
-            return thuocDAO.GetExpiredMedicines();
+            return thuocDAO.GetMedicinesByExpiry();
         }
 
         public List<ThuocDTO> LayDanhSachThuocSapHetHan(int soNgay)
@@ -77,7 +74,7 @@ namespace InpatientManagerSystem.BUS
                 throw new ArgumentException("Số ngày phải lớn hơn 0!");
             }
 
-            return thuocDAO.GetExpiringSoonMedicines(soNgay);
+            return thuocDAO.GetMedicinesByExpiry();
         }
 
         public bool KiemTraThuocHetHan(string maThuoc)
