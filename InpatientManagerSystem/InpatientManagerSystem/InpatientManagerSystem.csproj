@@ -110,6 +110,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="BUS\BacSiBUS.cs" />
     <Compile Include="BUS\BenhNhanBUS.cs" />
     <Compile Include="BUS\DichVuBUS.cs" />
@@ -123,6 +124,12 @@
     <Compile Include="DTO\BenhNhanDTO.cs" />
     <Compile Include="DTO\DichVuDTO.cs" />
     <Compile Include="DTO\NguoiDungDTO.cs" />
+=======
+    <Compile Include="BUS\NguoiDungBUS.cs" />
+    <Compile Include="DAO\DBConnection.cs" />
+    <Compile Include="DAO\NguoiDungDAO.cs" />
+    <Compile Include="DTO\NguoiDung.cs" />
+>>>>>>> bf18f79f7e8c99d674adda1632c430a8751d12b9
     <Compile Include="UI\FormBacSi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -322,5 +329,6 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -72,7 +72,11 @@
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+<<<<<<< HEAD
             this.tableLayoutPanel1.Padding = new System.Windows.Forms.Padding(10, 10, 10, 10);
+=======
+            this.tableLayoutPanel1.Padding = new System.Windows.Forms.Padding(10);
+>>>>>>> bf18f79f7e8c99d674adda1632c430a8751d12b9
             this.tableLayoutPanel1.RowCount = 4;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 200F));
@@ -125,10 +129,13 @@
             this.cboVaiTro.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.cboVaiTro.FormattingEnabled = true;
+<<<<<<< HEAD
             this.cboVaiTro.Items.AddRange(new object[] {
             "Admin",
             "BacSi",
             "LeTan"});
+=======
+>>>>>>> bf18f79f7e8c99d674adda1632c430a8751d12b9
             this.cboVaiTro.Location = new System.Drawing.Point(625, 30);
             this.cboVaiTro.Name = "cboVaiTro";
             this.cboVaiTro.Size = new System.Drawing.Size(387, 25);
@@ -140,9 +147,12 @@
             this.cboTrangThai.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.cboTrangThai.FormattingEnabled = true;
+<<<<<<< HEAD
             this.cboTrangThai.Items.AddRange(new object[] {
             "Hoạt động",
             "Không hoạt động"});
+=======
+>>>>>>> bf18f79f7e8c99d674adda1632c430a8751d12b9
             this.cboTrangThai.Location = new System.Drawing.Point(625, 140);
             this.cboTrangThai.Name = "cboTrangThai";
             this.cboTrangThai.Size = new System.Drawing.Size(387, 25);
@@ -318,7 +328,6 @@
             this.btnLamMoi.TabIndex = 6;
             this.btnLamMoi.Text = "Làm mới";
             this.btnLamMoi.UseVisualStyleBackColor = false;
-            this.btnLamMoi.Click += new System.EventHandler(this.btnLamMoi_Click);
             // 
             // btnXoa
             // 
@@ -358,7 +367,11 @@
             this.btnThem.TabIndex = 3;
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = false;
+<<<<<<< HEAD
             this.btnThem.Click += new System.EventHandler(this.btnThem_Click_1);
+=======
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
+>>>>>>> bf18f79f7e8c99d674adda1632c430a8751d12b9
             // 
             // dgvNguoiDung
             // 

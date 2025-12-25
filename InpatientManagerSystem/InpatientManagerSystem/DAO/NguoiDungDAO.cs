@@ -20,7 +20,11 @@ namespace InpatientManagerSystem.DAO
                 using (MySqlConnection conn = dbConnection.GetConnection())
                 {
                     conn.Open();
+<<<<<<< HEAD
                     string query = "SELECT MaNguoiDung, TenDangNhap, MatKhau, HoTen, VaiTro, Email, SoDienThoai, TrangThai, NgayTao FROM nguoidung ORDER BY MaNguoiDung ASC";
+=======
+                    string query = "SELECT * FROM nguoidung ORDER BY MaNguoiDung ASC";
+>>>>>>> bf18f79f7e8c99d674adda1632c430a8751d12b9
                     MySqlCommand cmd = new MySqlCommand(query, conn);
 
                     using (MySqlDataReader reader = cmd.ExecuteReader())
@@ -34,8 +38,13 @@ namespace InpatientManagerSystem.DAO
                                 MatKhau = reader["MatKhau"].ToString(),
                                 HoTen = reader["HoTen"].ToString(),
                                 VaiTro = reader["VaiTro"].ToString(),
+<<<<<<< HEAD
                                 Email = reader["Email"]?.ToString() ?? "",
                                 SoDienThoai = reader["SoDienThoai"]?.ToString() ?? "",
+=======
+                                Email = reader["Email"].ToString(),
+                                SoDienThoai = reader["SoDienThoai"].ToString(),
+>>>>>>> bf18f79f7e8c99d674adda1632c430a8751d12b9
                                 TrangThai = Convert.ToBoolean(reader["TrangThai"]),
                                 NgayTao = Convert.ToDateTime(reader["NgayTao"])
                             };
@@ -51,7 +60,11 @@ namespace InpatientManagerSystem.DAO
             return list;
         }
 
+<<<<<<< HEAD
         // Thêm người dùng
+=======
+        // Hàm thêm người dùng
+>>>>>>> bf18f79f7e8c99d674adda1632c430a8751d12b9
         public bool Insert(NguoiDung nguoiDung)
         {
             try
@@ -59,19 +72,30 @@ namespace InpatientManagerSystem.DAO
                 using (MySqlConnection conn = dbConnection.GetConnection())
                 {
                     conn.Open();
+<<<<<<< HEAD
                     string query = "INSERT INTO nguoidung (TenDangNhap, MatKhau, HoTen, VaiTro, Email, SoDienThoai, TrangThai, NgayTao) " +
                                    "VALUES (@TenDangNhap, @MatKhau, @HoTen, @VaiTro, @Email, @SoDienThoai, @TrangThai, @NgayTao)";
+=======
+                    string query = "INSERT INTO NguoiDung (TenDangNhap, MatKhau, HoTen, VaiTro, Email, SoDienThoai, TrangThai) " +
+                                   "VALUES (@TenDangNhap, @MatKhau, @HoTen, @VaiTro, @Email, @SoDienThoai, @TrangThai)";
+>>>>>>> bf18f79f7e8c99d674adda1632c430a8751d12b9
                     using (MySqlCommand cmd = new MySqlCommand(query, conn))
                     {
                         cmd.Parameters.AddWithValue("@TenDangNhap", nguoiDung.TenDangNhap);
                         cmd.Parameters.AddWithValue("@MatKhau", nguoiDung.MatKhau);
                         cmd.Parameters.AddWithValue("@HoTen", nguoiDung.HoTen);
                         cmd.Parameters.AddWithValue("@VaiTro", nguoiDung.VaiTro);
+<<<<<<< HEAD
                         cmd.Parameters.AddWithValue("@Email", nguoiDung.Email ?? "");
                         cmd.Parameters.AddWithValue("@SoDienThoai", nguoiDung.SoDienThoai ?? "");
                         cmd.Parameters.AddWithValue("@TrangThai", nguoiDung.TrangThai ? 1 : 0);
                         cmd.Parameters.AddWithValue("@NgayTao", nguoiDung.NgayTao);
 
+=======
+                        cmd.Parameters.AddWithValue("@Email", nguoiDung.Email);
+                        cmd.Parameters.AddWithValue("@SoDienThoai", nguoiDung.SoDienThoai);
+                        cmd.Parameters.AddWithValue("@TrangThai", nguoiDung.TrangThai ? 1 : 0);
+>>>>>>> bf18f79f7e8c99d674adda1632c430a8751d12b9
                         int rowsAffected = cmd.ExecuteNonQuery();
                         return rowsAffected > 0;
                     }
@@ -82,6 +106,7 @@ namespace InpatientManagerSystem.DAO
                 throw new Exception("Lỗi thêm người dùng: " + ex.Message);
             }
         }
+<<<<<<< HEAD
 
         // Cập nhật người dùng
         public bool Update(NguoiDung nguoiDung)
@@ -297,5 +322,7 @@ namespace InpatientManagerSystem.DAO
 
             return list;
         }
+=======
+>>>>>>> bf18f79f7e8c99d674adda1632c430a8751d12b9
     }
 }

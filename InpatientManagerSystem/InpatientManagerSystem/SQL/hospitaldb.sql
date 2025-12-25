@@ -17,11 +17,11 @@ CREATE TABLE nguoidung (
     TenDangNhap VARCHAR(50) UNIQUE NOT NULL,
     MatKhau VARCHAR(255) NOT NULL,
     HoTen VARCHAR(100) NOT NULL,
-    VaiTro ENUM('Admin','BacSi','LeTan') NOT NULL,
+    VaiTro ENUM('Admin','Bác Sĩ','Lễ Tân') NOT NULL,
     Email VARCHAR(100),
     SoDienThoai VARCHAR(20) CHECK (SoDienThoai REGEXP '^[0-9]{10,11}$'),
     TrangThai BOOLEAN DEFAULT TRUE,
-    NgayTao DATETIME DEFAULT CURRENT_TIMESTAMP
+    NgayTao DATE DEFAULT (CURRENT_DATE)
 ) ENGINE=InnoDB;
 
 -- =========================
@@ -276,7 +276,7 @@ CREATE TABLE chitietdonthuoc (
 ) ENGINE=InnoDB;
 
 -- =========================
--- BẢNG DỊCH VỤ`
+-- BẢNG DỊCH VỤ
 -- =========================
 DROP TABLE IF EXISTS dichvu;
 CREATE TABLE dichvu (
