@@ -110,13 +110,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BUS\BacSiBUS.cs" />
     <Compile Include="BUS\BenhNhanBUS.cs" />
     <Compile Include="BUS\DichVuBUS.cs" />
+    <Compile Include="DAO\BacSiDAO.cs" />
     <Compile Include="DAO\BenhNhanDAO.cs" />
     <Compile Include="DAO\DichVuDAO.cs" />
     <Compile Include="DAO\NguoiDungDAO.cs" />
     <Compile Include="DAO\DBConnection.cs" />
     <Compile Include="BUS\NguoiDungBus.cs" />
+    <Compile Include="DTO\BacSiDTO.cs" />
     <Compile Include="DTO\BenhNhanDTO.cs" />
     <Compile Include="DTO\DichVuDTO.cs" />
     <Compile Include="DTO\NguoiDungDTO.cs" />

@@ -142,5 +142,10 @@ namespace InpatientManagerSystem.BUS
                 throw new ArgumentException("Vai trò chỉ có thể là Admin, BacSi hoặc LeTan!");
             }
         }
+
+        public List<NguoiDung> LayNguoiDungRoleBacSi()
+        {
+            return nguoiDungDAO.GetNguoiDungRoleBacSi();
+        }
     }
 }

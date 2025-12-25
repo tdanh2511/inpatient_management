@@ -150,11 +150,11 @@ namespace InpatientManagerSystem.DAO
                     conn.Open();
                     string query = @"SELECT MaNguoiDung, TenDangNhap, MatKhau, HoTen, VaiTro, Email, SoDienThoai, TrangThai, NgayTao 
                                      FROM nguoidung 
-                                    WHERE TenDangNhap LIKE @keyword 
-                                       OR HoTen LIKE @keyword 
-                                      OR Email LIKE @keyword 
-                                     OR SoDienThoai LIKE @keyword
-                                  ORDER BY MaNguoiDung ASC";
+                                     WHERE TenDangNhap LIKE @keyword 
+                                        OR HoTen LIKE @keyword 
+                                        OR Email LIKE @keyword 
+                                        OR SoDienThoai LIKE @keyword
+                                     ORDER BY MaNguoiDung ASC";
                     MySqlCommand cmd = new MySqlCommand(query, conn);
                     cmd.Parameters.AddWithValue("@keyword", "%" + keyword + "%");
 
@@ -254,6 +254,48 @@ namespace InpatientManagerSystem.DAO
             {
                 throw new Exception("Lỗi kiểm tra tên đăng nhập: " + ex.Message);
             }
+        }
+
+        public List<NguoiDung> GetNguoiDungRoleBacSi()
+        {
+            var list = new List<NguoiDung>();
+
+            try
+            {
+                using (MySqlConnection conn = dbConnection.GetConnection())
+                {
+                    conn.Open();
+                    string query = @"SELECT MaNguoiDung, TenDangNhap, HoTen, VaiTro, Email, SoDienThoai, TrangThai, NgayTao
+                                     FROM nguoidung
+                                     WHERE VaiTro = 'BacSi' AND TrangThai = 1
+                                     ORDER BY MaNguoiDung ASC";
+
+                    using (MySqlCommand cmd = new MySqlCommand(query, conn))
+                    using (MySqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            list.Add(new NguoiDung
+                            {
+                                MaNguoiDung = Convert.ToInt32(reader["MaNguoiDung"]),
+                                TenDangNhap = reader["TenDangNhap"].ToString(),
+                                HoTen = reader["HoTen"].ToString(),
+                                VaiTro = reader["VaiTro"].ToString(),
+                                Email = reader["Email"].ToString(),
+                                SoDienThoai = reader["SoDienThoai"].ToString(),
+                                TrangThai = Convert.ToBoolean(reader["TrangThai"]),
+                                NgayTao = Convert.ToDateTime(reader["NgayTao"])
+                            });
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Lỗi lấy danh sách người dùng vai trò bác sĩ: " + ex.Message);
+            }
+
+            return list;
         }
     }
 }

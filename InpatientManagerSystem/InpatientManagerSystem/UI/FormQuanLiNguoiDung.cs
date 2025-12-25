@@ -28,7 +28,7 @@ namespace InpatientManagerSystem.UI
             btnXoa.Click += BtnXoa_Click;
             btnTimKiem.Click += BtnTimKiem_Click;
             btnLamMoi.Click += btnLamMoi_Click;
-            dataGridView1.CellClick += DataGridView1_CellClick;
+            dgvNguoiDung.CellClick += DataGridView1_CellClick;
             txtTimKiem.KeyPress += TxtTimKiem_KeyPress;
         }
 
@@ -37,12 +37,11 @@ namespace InpatientManagerSystem.UI
             LoadDanhSach();
             ConfigureDataGridView();
             ClearForm();
-
-            // Thiết lập các trường ReadOnly
-            txtMaND.ReadOnly = true;  // Mã người dùng tự động, không cho sửa
-            txtMaND.BackColor = Color.LightGray;  // Đổi màu nền để dễ nhận biết
-
-            // Thiết lập ComboBox chỉ cho phép CHỌN, không cho nhập tự do
+            txtMaND.Enabled = false;
+            dgvNguoiDung.ReadOnly = true;
+            dgvNguoiDung.AllowUserToAddRows = false;
+            dgvNguoiDung.AllowUserToDeleteRows = false;
+            txtMaND.BackColor = Color.LightGray;
             cboVaiTro.DropDownStyle = ComboBoxStyle.DropDownList;
             cboTrangThai.DropDownStyle = ComboBoxStyle.DropDownList;
         }
@@ -50,16 +49,16 @@ namespace InpatientManagerSystem.UI
         // Cấu hình DataGridView
         private void ConfigureDataGridView()
         {
-            dataGridView1.Columns.Clear();
-            dataGridView1.AutoGenerateColumns = false;
+            dgvNguoiDung.Columns.Clear();
+            dgvNguoiDung.AutoGenerateColumns = false;
 
             // Khóa chỉnh sửa trực tiếp trong DataGridView
-            dataGridView1.ReadOnly = true;
-            dataGridView1.AllowUserToAddRows = false;
-            dataGridView1.AllowUserToDeleteRows = false;
-            dataGridView1.EditMode = DataGridViewEditMode.EditProgrammatically;
+            dgvNguoiDung.ReadOnly = true;
+            dgvNguoiDung.AllowUserToAddRows = false;
+            dgvNguoiDung.AllowUserToDeleteRows = false;
+            dgvNguoiDung.EditMode = DataGridViewEditMode.EditProgrammatically;
 
-            dataGridView1.Columns.Add(new DataGridViewTextBoxColumn
+            dgvNguoiDung.Columns.Add(new DataGridViewTextBoxColumn
             {
                 DataPropertyName = "MaNguoiDung",
                 HeaderText = "Mã ND",
@@ -67,7 +66,7 @@ namespace InpatientManagerSystem.UI
                 Width = 80
             });
 
-            dataGridView1.Columns.Add(new DataGridViewTextBoxColumn
+            dgvNguoiDung.Columns.Add(new DataGridViewTextBoxColumn
             {
                 DataPropertyName = "TenDangNhap",
                 HeaderText = "Tên đăng nhập",
@@ -75,7 +74,7 @@ namespace InpatientManagerSystem.UI
                 Width = 150
             });
 
-            dataGridView1.Columns.Add(new DataGridViewTextBoxColumn
+            dgvNguoiDung.Columns.Add(new DataGridViewTextBoxColumn
             {
                 DataPropertyName = "HoTen",
                 HeaderText = "Họ tên",
@@ -83,7 +82,7 @@ namespace InpatientManagerSystem.UI
                 Width = 200
             });
 
-            dataGridView1.Columns.Add(new DataGridViewTextBoxColumn
+            dgvNguoiDung.Columns.Add(new DataGridViewTextBoxColumn
             {
                 DataPropertyName = "VaiTro",
                 HeaderText = "Vai trò",
@@ -91,7 +90,7 @@ namespace InpatientManagerSystem.UI
                 Width = 100
             });
 
-            dataGridView1.Columns.Add(new DataGridViewTextBoxColumn
+            dgvNguoiDung.Columns.Add(new DataGridViewTextBoxColumn
             {
                 DataPropertyName = "Email",
                 HeaderText = "Email",
@@ -99,7 +98,7 @@ namespace InpatientManagerSystem.UI
                 Width = 200
             });
 
-            dataGridView1.Columns.Add(new DataGridViewTextBoxColumn
+            dgvNguoiDung.Columns.Add(new DataGridViewTextBoxColumn
             {
                 DataPropertyName = "SoDienThoai",
                 HeaderText = "Số điện thoại",
@@ -107,7 +106,7 @@ namespace InpatientManagerSystem.UI
                 Width = 120
             });
 
-            dataGridView1.Columns.Add(new DataGridViewTextBoxColumn
+            dgvNguoiDung.Columns.Add(new DataGridViewTextBoxColumn
             {
                 DataPropertyName = "TrangThai",
                 HeaderText = "Trạng thái",
@@ -115,7 +114,7 @@ namespace InpatientManagerSystem.UI
                 Width = 120
             });
 
-            dataGridView1.Columns.Add(new DataGridViewTextBoxColumn
+            dgvNguoiDung.Columns.Add(new DataGridViewTextBoxColumn
             {
                 DataPropertyName = "NgayTao",
                 HeaderText = "Ngày tạo",
@@ -145,7 +144,7 @@ namespace InpatientManagerSystem.UI
                     nd.NgayTao
                 }).ToList();
 
-                dataGridView1.DataSource = displayList;
+                dgvNguoiDung.DataSource = displayList;
             }
             catch (Exception ex)
             {
@@ -249,8 +248,7 @@ namespace InpatientManagerSystem.UI
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Lỗi: " + ex.Message, "Lỗi",
-        MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Lỗi: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -325,7 +323,7 @@ namespace InpatientManagerSystem.UI
                     nd.NgayTao
                 }).ToList();
 
-                dataGridView1.DataSource = displayList;
+                dgvNguoiDung.DataSource = displayList;
 
                 if (ketQua.Count == 0)
                 {
@@ -354,7 +352,7 @@ namespace InpatientManagerSystem.UI
             {
                 try
                 {
-                    DataGridViewRow row = dataGridView1.Rows[e.RowIndex];
+                    DataGridViewRow row = dgvNguoiDung.Rows[e.RowIndex];
 
                     selectedMaNguoiDung = Convert.ToInt32(row.Cells["MaNguoiDung"].Value);
                     txtMaND.Text = selectedMaNguoiDung.ToString();
@@ -417,6 +415,16 @@ namespace InpatientManagerSystem.UI
         }
 
         private void cboVaiTro_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnThem_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FormQuanLiNguoiDung_Load(object sender, EventArgs e)
         {
 
         }
