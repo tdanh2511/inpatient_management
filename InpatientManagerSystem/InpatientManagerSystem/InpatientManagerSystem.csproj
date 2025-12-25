@@ -112,14 +112,17 @@
   <ItemGroup>
     <Compile Include="BUS\BenhNhanBUS.cs" />
     <Compile Include="BUS\DichVuBUS.cs" />
+    <Compile Include="BUS\ThuocBUS.cs" />
     <Compile Include="DAO\BenhNhanDAO.cs" />
     <Compile Include="DAO\DichVuDAO.cs" />
     <Compile Include="DAO\NguoiDungDAO.cs" />
     <Compile Include="DAO\DBConnection.cs" />
     <Compile Include="BUS\NguoiDungBus.cs" />
+    <Compile Include="DAO\ThuocDAO.cs" />
     <Compile Include="DTO\BenhNhanDTO.cs" />
     <Compile Include="DTO\DichVuDTO.cs" />
     <Compile Include="DTO\NguoiDungDTO.cs" />
+    <Compile Include="DTO\ThuocDTO.cs" />
     <Compile Include="UI\FormBacSi.cs">
       <SubType>Form</SubType>
     </Compile>

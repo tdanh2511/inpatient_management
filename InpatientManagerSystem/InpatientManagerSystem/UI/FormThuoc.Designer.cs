@@ -62,6 +62,7 @@ namespace InpatientManagerSystem
             this.txtMaThuoc.ReadOnly = true;
             this.txtMaThuoc.Size = new System.Drawing.Size(220, 29);
             this.txtMaThuoc.TabIndex = 1;
+            this.txtMaThuoc.Text = "";
             this.txtMaThuoc.TextChanged += new System.EventHandler(this.txtMaThuoc_TextChanged);
             // 
             // label2
@@ -80,11 +81,12 @@ namespace InpatientManagerSystem
             this.txtTenThuoc.Name = "txtTenThuoc";
             this.txtTenThuoc.Size = new System.Drawing.Size(400, 29);
             this.txtTenThuoc.TabIndex = 3;
+            this.txtTenThuoc.Text = "";
             // 
             // label3
             // 
             this.label3.Font = new System.Drawing.Font("Times New Roman", 11F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(651, 20);
+            this.label3.Location = new System.Drawing.Point(631, 21);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(120, 25);
             this.label3.TabIndex = 4;
@@ -93,15 +95,16 @@ namespace InpatientManagerSystem
             // txtDonViTinh
             // 
             this.txtDonViTinh.Font = new System.Drawing.Font("Times New Roman", 11F, System.Drawing.FontStyle.Bold);
-            this.txtDonViTinh.Location = new System.Drawing.Point(747, 17);
+            this.txtDonViTinh.Location = new System.Drawing.Point(770, 16);
             this.txtDonViTinh.Name = "txtDonViTinh";
             this.txtDonViTinh.Size = new System.Drawing.Size(220, 29);
             this.txtDonViTinh.TabIndex = 5;
+            this.txtDonViTinh.Text = "";
             // 
             // label4
             // 
             this.label4.Font = new System.Drawing.Font("Times New Roman", 11F, System.Drawing.FontStyle.Bold);
-            this.label4.Location = new System.Drawing.Point(651, 64);
+            this.label4.Location = new System.Drawing.Point(631, 62);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(100, 25);
             this.label4.TabIndex = 6;
@@ -114,13 +117,14 @@ namespace InpatientManagerSystem
             this.txtDonGia.Name = "txtDonGia";
             this.txtDonGia.Size = new System.Drawing.Size(220, 29);
             this.txtDonGia.TabIndex = 7;
+            this.txtDonGia.Text = "";
             // 
             // label5
             // 
             this.label5.Font = new System.Drawing.Font("Times New Roman", 11F, System.Drawing.FontStyle.Bold);
             this.label5.Location = new System.Drawing.Point(30, 108);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(100, 25);
+            this.label5.Size = new System.Drawing.Size(124, 25);
             this.label5.TabIndex = 8;
             this.label5.Text = "Số lượng tồn:";
             // 
@@ -131,23 +135,25 @@ namespace InpatientManagerSystem
             this.txtSoLuong.Name = "txtSoLuong";
             this.txtSoLuong.Size = new System.Drawing.Size(220, 29);
             this.txtSoLuong.TabIndex = 9;
+            this.txtSoLuong.Text = "";
             // 
             // label6
             // 
             this.label6.Font = new System.Drawing.Font("Times New Roman", 11F, System.Drawing.FontStyle.Bold);
-            this.label6.Location = new System.Drawing.Point(651, 108);
+            this.label6.Location = new System.Drawing.Point(631, 105);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(120, 25);
+            this.label6.Size = new System.Drawing.Size(133, 25);
             this.label6.TabIndex = 10;
             this.label6.Text = "Hãng sản xuất:";
             // 
             // txtHang
             // 
             this.txtHang.Font = new System.Drawing.Font("Times New Roman", 11F, System.Drawing.FontStyle.Bold);
-            this.txtHang.Location = new System.Drawing.Point(770, 104);
+            this.txtHang.Location = new System.Drawing.Point(770, 102);
             this.txtHang.Name = "txtHang";
             this.txtHang.Size = new System.Drawing.Size(287, 29);
             this.txtHang.TabIndex = 11;
+            this.txtHang.Text = "";
             // 
             // label7
             // 
@@ -166,20 +172,21 @@ namespace InpatientManagerSystem
             this.txtCongDung.Name = "txtCongDung";
             this.txtCongDung.Size = new System.Drawing.Size(400, 80);
             this.txtCongDung.TabIndex = 13;
+            this.txtCongDung.Text = "";
             // 
             // label8
             // 
             this.label8.Font = new System.Drawing.Font("Times New Roman", 11F, System.Drawing.FontStyle.Bold);
-            this.label8.Location = new System.Drawing.Point(651, 150);
+            this.label8.Location = new System.Drawing.Point(631, 145);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(120, 25);
+            this.label8.Size = new System.Drawing.Size(131, 25);
             this.label8.TabIndex = 14;
             this.label8.Text = "Ngày hết hạn:";
             // 
             // dtpNgayHetHan
             // 
             this.dtpNgayHetHan.Font = new System.Drawing.Font("Times New Roman", 11F, System.Drawing.FontStyle.Bold);
-            this.dtpNgayHetHan.Location = new System.Drawing.Point(770, 147);
+            this.dtpNgayHetHan.Location = new System.Drawing.Point(770, 145);
             this.dtpNgayHetHan.Name = "dtpNgayHetHan";
             this.dtpNgayHetHan.Size = new System.Drawing.Size(220, 29);
             this.dtpNgayHetHan.TabIndex = 15;
@@ -189,7 +196,7 @@ namespace InpatientManagerSystem
             this.chkTrangThai.Checked = true;
             this.chkTrangThai.CheckState = System.Windows.Forms.CheckState.Checked;
             this.chkTrangThai.Font = new System.Drawing.Font("Times New Roman", 11F, System.Drawing.FontStyle.Bold);
-            this.chkTrangThai.Location = new System.Drawing.Point(654, 188);
+            this.chkTrangThai.Location = new System.Drawing.Point(635, 184);
             this.chkTrangThai.Name = "chkTrangThai";
             this.chkTrangThai.Size = new System.Drawing.Size(150, 28);
             this.chkTrangThai.TabIndex = 16;
@@ -200,21 +207,23 @@ namespace InpatientManagerSystem
             this.labelTimKiem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
             this.labelTimKiem.Font = new System.Drawing.Font("Times New Roman", 11F, System.Drawing.FontStyle.Bold);
             this.labelTimKiem.ForeColor = System.Drawing.Color.White;
-            this.labelTimKiem.Location = new System.Drawing.Point(967, 286);
+            this.labelTimKiem.Location = new System.Drawing.Point(951, 286);
             this.labelTimKiem.Name = "labelTimKiem";
-            this.labelTimKiem.Size = new System.Drawing.Size(90, 40);
+            this.labelTimKiem.Size = new System.Drawing.Size(106, 40);
             this.labelTimKiem.TabIndex = 17;
             this.labelTimKiem.Text = "Tìm kiếm:";
             this.labelTimKiem.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelTimKiem.Click += new System.EventHandler(this.labelTimKiem_Click);
             // 
             // txtTimKiem
             // 
             this.txtTimKiem.Font = new System.Drawing.Font("Times New Roman", 11F, System.Drawing.FontStyle.Bold);
             this.txtTimKiem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
-            this.txtTimKiem.Location = new System.Drawing.Point(731, 295);
+            this.txtTimKiem.Location = new System.Drawing.Point(715, 297);
             this.txtTimKiem.Name = "txtTimKiem";
             this.txtTimKiem.Size = new System.Drawing.Size(230, 29);
             this.txtTimKiem.TabIndex = 18;
+            this.txtTimKiem.Text = "";
             // 
             // btnThem
             // 
@@ -229,6 +238,7 @@ namespace InpatientManagerSystem
             this.btnThem.TabIndex = 19;
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = false;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // btnSua
             // 
@@ -285,7 +295,7 @@ namespace InpatientManagerSystem
             // 
             // FormThuoc
             // 
-            this.ClientSize = new System.Drawing.Size(1064, 663);
+            this.ClientSize = new System.Drawing.Size(1105, 663);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtMaThuoc);
             this.Controls.Add(this.label2);

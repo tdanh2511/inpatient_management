@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
+﻿using InpatientManagerSystem.BUS;
+using InpatientManagerSystem.DTO;
+using System;
 using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using InpatientManagerSystem.BUS;
-using InpatientManagerSystem.DTO;
 
 namespace InpatientManagerSystem.UI
 {
@@ -417,6 +413,11 @@ namespace InpatientManagerSystem.UI
         }
 
         private void cboVaiTro_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnThem_Click_1(object sender, EventArgs e)
         {
 
         }
