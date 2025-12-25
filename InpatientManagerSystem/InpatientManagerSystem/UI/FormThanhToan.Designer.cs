@@ -101,21 +101,9 @@ namespace InpatientManagerSystem
             // 
             // splitContainer1.Panel2
             // 
-            var tableLayout2 = new TableLayoutPanel
-            {
-                Dock = DockStyle.Fill,
-                ColumnCount = 2,
-                RowCount = 2
-            };
-            tableLayout2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 75F));
-            tableLayout2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
-            tableLayout2.RowStyles.Add(new RowStyle(SizeType.Absolute, 49F));
-            tableLayout2.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayout2.SetColumnSpan(this.panel2, 2);
-            tableLayout2.Controls.Add(this.panel2, 0, 0);
-            tableLayout2.Controls.Add(this.dgvChiTiet, 0, 1);
-            tableLayout2.Controls.Add(this.groupBox1, 1, 1);
-            this.splitContainer1.Panel2.Controls.Add(tableLayout2);
+            this.splitContainer1.Panel2.Controls.Add(this.dgvChiTiet);
+            this.splitContainer1.Panel2.Controls.Add(this.groupBox1);
+            this.splitContainer1.Panel2.Controls.Add(this.panel2);
             this.splitContainer1.Size = new System.Drawing.Size(1350, 674);
             this.splitContainer1.SplitterDistance = 244;
             this.splitContainer1.SplitterWidth = 5;
@@ -167,13 +155,13 @@ namespace InpatientManagerSystem
             this.groupBox1.Controls.Add(this.lblGhiChu);
             this.groupBox1.Controls.Add(this.lblPhuongThuc);
             this.groupBox1.Controls.Add(this.lblSoTien);
-            this.groupBox1.Dock = DockStyle.Fill;
+            this.groupBox1.Dock = System.Windows.Forms.DockStyle.Right;
             this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold);
-            this.groupBox1.Location = new System.Drawing.Point(0, 0);
+            this.groupBox1.Location = new System.Drawing.Point(1015, 49);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox1.Size = new System.Drawing.Size(100, 100);
+            this.groupBox1.Size = new System.Drawing.Size(335, 376);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin thanh toán";
@@ -281,22 +269,22 @@ namespace InpatientManagerSystem
             this.dgvChiTiet.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvChiTiet.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvChiTiet.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvChiTiet.Location = new System.Drawing.Point(0, 0);
+            this.dgvChiTiet.Location = new System.Drawing.Point(0, 49);
             this.dgvChiTiet.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dgvChiTiet.Name = "dgvChiTiet";
             this.dgvChiTiet.RowHeadersWidth = 51;
             this.dgvChiTiet.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvChiTiet.Size = new System.Drawing.Size(100, 100);
+            this.dgvChiTiet.Size = new System.Drawing.Size(1015, 376);
             this.dgvChiTiet.TabIndex = 1;
             // 
             // panel2
             // 
             this.panel2.Controls.Add(this.lblDSChiTiet);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(100, 49);
+            this.panel2.Size = new System.Drawing.Size(1350, 49);
             this.panel2.TabIndex = 0;
             // 
             // lblDSChiTiet
