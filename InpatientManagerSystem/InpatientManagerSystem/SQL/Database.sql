@@ -1,3 +1,4 @@
+-- dROP database hospitaldb;
 -- =========================
 -- TẠO DATABASE
 -- =========================
@@ -10,7 +11,7 @@ USE hospitaldb;
 -- =========================
 -- BẢNG NGƯỜI DÙNG
 -- =========================
-DROP TABLE IF EXISTS nguoidung;
+-- DROP TABLE IF EXISTS nguoidung;
 CREATE TABLE nguoidung (
     MaNguoiDung INT AUTO_INCREMENT PRIMARY KEY,
     TenDangNhap VARCHAR(50) UNIQUE NOT NULL,
@@ -26,10 +27,10 @@ CREATE TABLE nguoidung (
 -- =========================
 -- BẢNG BÁC SĨ
 -- =========================
-DROP TABLE IF EXISTS bacsi;
+-- DROP TABLE IF EXISTS bacsi;
 CREATE TABLE bacsi (
-    STT INT AUTO_INCREMENT UNIQUE,
-    MaBacSi VARCHAR(10) PRIMARY KEY,
+    STT INT AUTO_INCREMENT PRIMARY KEY,
+    MaBacSi VARCHAR(10) UNIQUE,
     MaNguoiDung INT NOT NULL UNIQUE,
     HoTen VARCHAR(100) NOT NULL,
     NgaySinh DATE,
@@ -48,17 +49,20 @@ CREATE TRIGGER trg_bacsi_ma
 BEFORE INSERT ON bacsi
 FOR EACH ROW
 BEGIN
-    SET NEW.MaBacSi = CONCAT('BS', LPAD(NEW.STT,3,'0'));
+    DECLARE next_stt INT;
+    SELECT IFNULL(MAX(STT), 0) + 1 INTO next_stt FROM bacsi;
+    SET NEW.STT = next_stt;
+    SET NEW.MaBacSi = CONCAT('BS', LPAD(next_stt, 3, '0'));
 END$$
 DELIMITER ;
 
 -- =========================
 -- BẢNG BỆNH NHÂN
 -- =========================
-DROP TABLE IF EXISTS benhnhan;
+-- DROP TABLE IF EXISTS benhnhan;
 CREATE TABLE benhnhan (
-    STT INT AUTO_INCREMENT UNIQUE,
-    MaBenhNhan VARCHAR(10) PRIMARY KEY,
+    STT INT AUTO_INCREMENT PRIMARY KEY,
+    MaBenhNhan VARCHAR(10) UNIQUE,
     CCCD VARCHAR(20) UNIQUE NOT NULL CHECK (CCCD REGEXP '^[0-9]{12}$'),
     HoTen VARCHAR(100) NOT NULL,
     NgaySinh DATE NOT NULL,
@@ -74,17 +78,20 @@ CREATE TRIGGER trg_benhnhan_ma
 BEFORE INSERT ON benhnhan
 FOR EACH ROW
 BEGIN
-    SET NEW.MaBenhNhan = CONCAT('BN', LPAD(NEW.STT,6,'0'));
+    DECLARE next_stt INT;
+    SELECT IFNULL(MAX(STT), 0) + 1 INTO next_stt FROM benhnhan;
+    SET NEW.STT = next_stt;
+    SET NEW.MaBenhNhan = CONCAT('BN', LPAD(next_stt, 6, '0'));
 END$$
 DELIMITER ;
 
 -- =========================
 -- BẢNG HỒ SƠ BỆNH
 -- =========================
-DROP TABLE IF EXISTS hoso;
+-- DROP TABLE IF EXISTS hoso;
 CREATE TABLE hoso (
-    STT INT AUTO_INCREMENT UNIQUE,
-    MaHoSo VARCHAR(10) PRIMARY KEY,
+    STT INT AUTO_INCREMENT PRIMARY KEY,
+    MaHoSo VARCHAR(10) UNIQUE,
     MaBacSi VARCHAR(10),
     MaBenhNhan VARCHAR(10),
     NgayNhapVien DATE NOT NULL,
@@ -103,17 +110,20 @@ CREATE TRIGGER trg_hoso_ma
 BEFORE INSERT ON hoso
 FOR EACH ROW
 BEGIN
-    SET NEW.MaHoSo = CONCAT('HS', LPAD(NEW.STT,4,'0'));
+    DECLARE next_stt INT;
+    SELECT IFNULL(MAX(STT), 0) + 1 INTO next_stt FROM hoso;
+    SET NEW.STT = next_stt;
+    SET NEW.MaHoSo = CONCAT('HS', LPAD(next_stt, 4, '0'));
 END$$
 DELIMITER ;
 
 -- =========================
 -- BẢNG PHÒNG
 -- =========================
-DROP TABLE IF EXISTS phong;
+-- DROP TABLE IF EXISTS phong;
 CREATE TABLE phong (
-    STT INT AUTO_INCREMENT UNIQUE,
-    MaPhong VARCHAR(10) PRIMARY KEY,
+    STT INT AUTO_INCREMENT PRIMARY KEY,
+    MaPhong VARCHAR(10) UNIQUE,
     TenPhong VARCHAR(3) NOT NULL,
     LoaiPhong ENUM('Thường','Dịch vụ') DEFAULT 'Thường'
 ) ENGINE=InnoDB;
@@ -123,17 +133,20 @@ CREATE TRIGGER trg_phong_ma
 BEFORE INSERT ON phong
 FOR EACH ROW
 BEGIN
-    SET NEW.MaPhong = CONCAT('P', LPAD(NEW.STT,2,'0'));
+    DECLARE next_stt INT;
+    SELECT IFNULL(MAX(STT), 0) + 1 INTO next_stt FROM phong;
+    SET NEW.STT = next_stt;
+    SET NEW.MaPhong = CONCAT('P', LPAD(next_stt, 2, '0'));
 END$$
 DELIMITER ;
 
 -- =========================
 -- BẢNG GIƯỜNG
 -- =========================
-DROP TABLE IF EXISTS giuong;
+-- DROP TABLE IF EXISTS giuong;
 CREATE TABLE giuong (
-    STT INT AUTO_INCREMENT UNIQUE,
-    MaGiuong VARCHAR(10) PRIMARY KEY,
+    STT INT AUTO_INCREMENT PRIMARY KEY,
+    MaGiuong VARCHAR(10) UNIQUE,
     MaBacSi VARCHAR(10),
     MaPhong VARCHAR(10),
     TrangThai ENUM('Trống','Đầy'),
@@ -150,17 +163,21 @@ CREATE TRIGGER trg_giuong_ma
 BEFORE INSERT ON giuong
 FOR EACH ROW
 BEGIN
-    SET NEW.MaGiuong = CONCAT('G', LPAD(NEW.STT,2,'0'));
+    DECLARE next_stt INT;
+    SELECT IFNULL(MAX(STT), 0) + 1 INTO next_stt FROM giuong;
+    SET NEW.STT = next_stt;
+    SET NEW.MaGiuong = CONCAT('G', LPAD(next_stt, 2, '0'));
 END$$
 DELIMITER ;
+
 
 -- =========================
 -- BẢNG THUỐC
 -- =========================
-DROP TABLE IF EXISTS thuoc;
+-- DROP TABLE IF EXISTS thuoc;
 CREATE TABLE thuoc (
-    STT INT AUTO_INCREMENT UNIQUE,
-    MaThuoc VARCHAR(10) PRIMARY KEY,
+    STT INT AUTO_INCREMENT PRIMARY KEY,
+    MaThuoc VARCHAR(10) UNIQUE,
     TenThuoc VARCHAR(200) NOT NULL,
     DonViTinh VARCHAR(50) NOT NULL,
     DonGia DECIMAL(18,2) DEFAULT 0 CHECK (DonGia >= 0),
@@ -176,14 +193,17 @@ CREATE TRIGGER trg_thuoc_ma
 BEFORE INSERT ON thuoc
 FOR EACH ROW
 BEGIN
-    SET NEW.MaThuoc = CONCAT('T', LPAD(NEW.STT,3,'0'));
+    DECLARE next_stt INT;
+    SELECT IFNULL(MAX(STT), 0) + 1 INTO next_stt FROM thuoc;
+    SET NEW.STT = next_stt;
+    SET NEW.MaThuoc = CONCAT('T', LPAD(next_stt, 3, '0'));
 END$$
 DELIMITER ;
 
 -- =========================
 -- BẢNG PHÂN GIƯỜNG
 -- =========================
-DROP TABLE IF EXISTS phangiuong;
+-- DROP TABLE IF EXISTS phangiuong;
 CREATE TABLE phangiuong (
     MaPhanGiuong VARCHAR(10) PRIMARY KEY,
     CHECK (MaPhanGiuong REGEXP '^PG[0-9]+$'),
@@ -202,10 +222,10 @@ CREATE TABLE phangiuong (
 -- =========================
 -- BẢNG KHÁM BỆNH
 -- =========================
-DROP TABLE IF EXISTS khambenh;
+-- DROP TABLE IF EXISTS khambenh;
 CREATE TABLE khambenh (
-    STT INT AUTO_INCREMENT UNIQUE,
-    MaKhamBenh VARCHAR(10) PRIMARY KEY,
+    STT INT AUTO_INCREMENT PRIMARY KEY,
+    MaKhamBenh VARCHAR(10) UNIQUE,
     MaHoSo VARCHAR(10),
     MaBenhNhan VARCHAR(10),
     MaBacSi VARCHAR(10),
@@ -227,17 +247,20 @@ CREATE TRIGGER trg_khambenh_ma
 BEFORE INSERT ON khambenh
 FOR EACH ROW
 BEGIN
-    SET NEW.MaKhamBenh = CONCAT('KB', LPAD(NEW.STT,3,'0'));
+    DECLARE next_stt INT;
+    SELECT IFNULL(MAX(STT), 0) + 1 INTO next_stt FROM khambenh;
+    SET NEW.STT = next_stt;
+    SET NEW.MaKhamBenh = CONCAT('KB', LPAD(next_stt, 3, '0'));
 END$$
 DELIMITER ;
 
 -- =========================
 -- BẢNG ĐƠN THUỐC
 -- =========================
-DROP TABLE IF EXISTS donthuoc;
+-- DROP TABLE IF EXISTS donthuoc;
 CREATE TABLE donthuoc (
-    STT INT AUTO_INCREMENT UNIQUE,
-    MaDonThuoc VARCHAR(10) PRIMARY KEY,
+    STT INT AUTO_INCREMENT PRIMARY KEY,
+    MaDonThuoc VARCHAR(10) UNIQUE,
     MaKhamBenh VARCHAR(10),
     NgayKe DATE DEFAULT (CURRENT_DATE),
     CONSTRAINT FK_DT_KB FOREIGN KEY (MaKhamBenh)
@@ -250,14 +273,17 @@ CREATE TRIGGER trg_donthuoc_ma
 BEFORE INSERT ON donthuoc
 FOR EACH ROW
 BEGIN
-    SET NEW.MaDonThuoc = CONCAT('DT', LPAD(NEW.STT,3,'0'));
+    DECLARE next_stt INT;
+    SELECT IFNULL(MAX(STT), 0) + 1 INTO next_stt FROM donthuoc;
+    SET NEW.STT = next_stt;
+    SET NEW.MaDonThuoc = CONCAT('DT', LPAD(next_stt, 3, '0'));
 END$$
 DELIMITER ;
 
 -- =========================
 -- BẢNG CHI TIẾT ĐƠN THUỐC
 -- =========================
-DROP TABLE IF EXISTS chitietdonthuoc;
+-- DROP TABLE IF EXISTS chitietdonthuoc;
 CREATE TABLE chitietdonthuoc (
     MaChiTietDonThuoc VARCHAR(10) PRIMARY KEY,
     CHECK (MaChiTietDonThuoc REGEXP '^CTDT[0-9]+$'),
@@ -277,7 +303,7 @@ CREATE TABLE chitietdonthuoc (
 -- =========================
 -- BẢNG DỊCH VỤ`
 -- =========================
-DROP TABLE IF EXISTS dichvu;
+-- DROP TABLE IF EXISTS dichvu;
 CREATE TABLE dichvu (
     MaDichVu VARCHAR(10) PRIMARY KEY,
     CHECK (MaDichVu REGEXP '^DV[0-9]+$'),
@@ -293,10 +319,10 @@ CREATE TABLE dichvu (
 -- =========================
 -- BẢNG HÓA ĐƠN
 -- =========================
-DROP TABLE IF EXISTS hoadon;
+-- DROP TABLE IF EXISTS hoadon;
 CREATE TABLE hoadon (
-    STT INT AUTO_INCREMENT UNIQUE,
-    MaHoaDon VARCHAR(10) PRIMARY KEY,
+    STT INT AUTO_INCREMENT PRIMARY KEY,
+    MaHoaDon VARCHAR(10) UNIQUE,
     MaHoSo VARCHAR(10) NOT NULL,
     MaNguoiDung INT,
     NgayTao DATETIME DEFAULT CURRENT_TIMESTAMP,
@@ -317,14 +343,17 @@ CREATE TRIGGER trg_hoadon_ma
 BEFORE INSERT ON hoadon
 FOR EACH ROW
 BEGIN
-    SET NEW.MaHoaDon = CONCAT('HD', LPAD(NEW.STT,3,'0'));
+    DECLARE next_stt INT;
+    SELECT IFNULL(MAX(STT), 0) + 1 INTO next_stt FROM hoadon;
+    SET NEW.STT = next_stt;
+    SET NEW.MaHoaDon = CONCAT('HD', LPAD(next_stt, 3, '0'));
 END$$
 DELIMITER ;
 
 -- =========================
 -- BẢNG CHI TIẾT HÓA ĐƠN
 -- =========================
-DROP TABLE IF EXISTS chitiethoadon;
+-- DROP TABLE IF EXISTS chitiethoadon;
 CREATE TABLE chitiethoadon (
     MaChiTietHoaDon VARCHAR(10) PRIMARY KEY,
     CHECK (MaChiTietHoaDon REGEXP '^CTHD[0-9]+$'),
@@ -345,7 +374,6 @@ CREATE TABLE chitiethoadon (
 -- TRIGGER TÍNH TỔNG TIỀN
 -- =========================
 DELIMITER $$
-
 CREATE TRIGGER trg_tinh_tong_tien
 AFTER INSERT ON chitiethoadon
 FOR EACH ROW
@@ -354,7 +382,9 @@ BEGIN
     SET TongTien = (SELECT SUM(ThanhTien) FROM chitiethoadon WHERE MaHoaDon = NEW.MaHoaDon)
     WHERE MaHoaDon = NEW.MaHoaDon;
 END$$
+DELIMITER ;
 
+DELIMITER $$
 CREATE TRIGGER trg_update_tong_tien_after_update
 AFTER UPDATE ON chitiethoadon
 FOR EACH ROW
@@ -363,7 +393,9 @@ BEGIN
     SET TongTien = (SELECT IFNULL(SUM(ThanhTien),0) FROM chitiethoadon WHERE MaHoaDon = NEW.MaHoaDon)
     WHERE MaHoaDon = NEW.MaHoaDon;
 END$$
+DELIMITER ;
 
+DELIMITER $$
 CREATE TRIGGER trg_update_tong_tien_after_delete
 AFTER DELETE ON chitiethoadon
 FOR EACH ROW
@@ -372,13 +404,12 @@ BEGIN
     SET TongTien = (SELECT IFNULL(SUM(ThanhTien),0) FROM chitiethoadon WHERE MaHoaDon = OLD.MaHoaDon)
     WHERE MaHoaDon = OLD.MaHoaDon;
 END$$
-
 DELIMITER ;
 
 -- =========================
 -- BẢNG THANH TOÁN
 -- =========================
-DROP TABLE IF EXISTS thanhtoan;
+-- DROP TABLE IF EXISTS thanhtoan;
 CREATE TABLE thanhtoan (
     MaThanhToan VARCHAR(10) PRIMARY KEY,
     CHECK (MaThanhToan REGEXP '^TT[0-9]+$'),
@@ -397,7 +428,6 @@ CREATE TABLE thanhtoan (
 ) ENGINE=InnoDB;
 
 DELIMITER $$
-
 CREATE TRIGGER trg_cong_tien_thanh_toan
 AFTER INSERT ON thanhtoan
 FOR EACH ROW
@@ -412,7 +442,9 @@ BEGIN
         END
     WHERE MaHoaDon = NEW.MaHoaDon;
 END$$
+DELIMITER ;
 
+DELIMITER $$
 CREATE TRIGGER trg_tru_tien_thanh_toan
 AFTER DELETE ON thanhtoan
 FOR EACH ROW
@@ -427,13 +459,12 @@ BEGIN
         END
     WHERE MaHoaDon = OLD.MaHoaDon;
 END$$
-
 DELIMITER ;
 
 -- =========================
 -- BẢNG XUẤT VIỆN
 -- =========================
-DROP TABLE IF EXISTS xuatvien;
+-- DROP TABLE IF EXISTS xuatvien;
 CREATE TABLE xuatvien (
     MaXuatVien VARCHAR(10) PRIMARY KEY,
     CHECK (MaXuatVien REGEXP '^XV[0-9]+$'),
@@ -459,3 +490,30 @@ ALTER TABLE thuoc AUTO_INCREMENT = 1;
 ALTER TABLE khambenh AUTO_INCREMENT = 1;
 ALTER TABLE donthuoc AUTO_INCREMENT = 1;
 ALTER TABLE hoadon AUTO_INCREMENT = 1;
+
+-- =========================
+-- DỮ LIỆU MẪU BẢNG THUỐC
+-- =========================
+INSERT INTO thuoc (TenThuoc, DonViTinh, DonGia, SoLuongTon, HangSanXuat, CongDung, NgayHetHan, TrangThai) VALUES
+('Paracetamol 500mg', 'Viên', 1500.00, 1000, 'Pymepharco', 'Hạ sốt, giảm đau nhẹ và vừa', '2026-12-31', TRUE),
+('Amoxicillin 500mg', 'Viên', 3500.00, 800, 'Imexpharm', 'Kháng sinh điều trị nhiễm khuẩn đường hô hấp, tai mũi họng', '2026-08-15', TRUE),
+('Vitamin C 1000mg', 'Viên', 2000.00, 1500, 'DHG Pharma', 'Bổ sung vitamin C, tăng cường sức đề kháng', '2027-03-20', TRUE),
+('Ibuprofen 400mg', 'Viên', 4000.00, 600, 'Traphaco', 'Giảm đau, hạ sốt, chống viêm', '2026-10-10', TRUE),
+('Metformin 500mg', 'Viên', 2500.00, 900, 'Domesco', 'Điều trị bệnh tiểu đường type 2', '2027-01-25', TRUE),
+('Omeprazole 20mg', 'Viên', 5000.00, 500, 'Stellapharm', 'Điều trị loét dạ dày, trào ngược dạ dày thực quản', '2026-11-30', TRUE),
+('Ambroxol 30mg', 'Viên', 3000.00, 700, 'Hasan-Dermapharm', 'Làm loãng đờm, long đờm', '2026-09-18', TRUE),
+('Cetirizine 10mg', 'Viên', 1800.00, 1200, 'Pymepharco', 'Điều trị dị ứng, mề đay, viêm mũi dị ứng', '2027-02-14', TRUE),
+('Aspirin 100mg', 'Viên', 2200.00, 800, 'Sanofi', 'Chống kết tập tiểu cầu, phòng ngừa tai biến mạch máu não', '2026-12-20', TRUE),
+('Cephalexin 500mg', 'Viên', 4500.00, 450, 'Mekophar', 'Kháng sinh điều trị nhiễm khuẩn da, đường tiết niệu', '2026-07-22', TRUE),
+('Diazepam 5mg', 'Viên', 3500.00, 300, 'VNP', 'Thuốc an thần, giảm lo âu, chống co giật', '2026-06-30', TRUE),
+('Loperamide 2mg', 'Viên', 2000.00, 600, 'Mediplantex', 'Điều trị tiêu chảy cấp và mãn tính', '2027-04-10', TRUE),
+('Glucose 5%', 'Chai 500ml', 15000.00, 200, 'Fresenius Kabi', 'Dung dịch truyền bù nước và điện giải', '2026-05-15', TRUE),
+('NaCl 0.9%', 'Chai 500ml', 12000.00, 300, 'Fresenius Kabi', 'Dung dịch muối sinh lý truyền tĩnh mạch', '2026-05-20', TRUE),
+('Insulin Glargine 100UI/ml', 'Lọ 10ml', 450000.00, 50, 'Sanofi', 'Điều trị bệnh tiểu đường type 1 và type 2', '2025-12-31', TRUE),
+('Atorvastatin 20mg', 'Viên', 6000.00, 400, 'Pfizer', 'Giảm cholesterol, phòng ngừa bệnh tim mạch', '2027-01-05', TRUE),
+('Ranitidine 150mg', 'Viên', 2800.00, 550, 'Stada', 'Điều trị loét dạ dày, tá tràng', '2026-08-30', TRUE),
+('Prednisolone 5mg', 'Viên', 1500.00, 400, 'Stellapharm', 'Thuốc corticoid chống viêm, chống dị ứng', '2026-11-11', TRUE),
+('Salbutamol 100mcg', 'Ống khí dung', 45000.00, 150, 'GlaxoSmithKline', 'Giãn phế quản điều trị hen phế quản', '2026-10-25', TRUE),
+('Multivitamin', 'Viên', 8000.00, 800, 'Centrum', 'Bổ sung vitamin và khoáng chất tổng hợp', '2027-06-30', TRUE);
+
+
