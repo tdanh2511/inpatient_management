@@ -215,6 +215,7 @@ namespace InpatientManagerSystem
             this.txtTimKiem.Name = "txtTimKiem";
             this.txtTimKiem.Size = new System.Drawing.Size(230, 29);
             this.txtTimKiem.TabIndex = 18;
+            this.txtTimKiem.TextChanged += new System.EventHandler(this.txtTimKiem_TextChanged);
             // 
             // btnThem
             // 
@@ -285,7 +286,7 @@ namespace InpatientManagerSystem
             // 
             // FormThuoc
             // 
-            this.ClientSize = new System.Drawing.Size(1064, 663);
+            this.ClientSize = new System.Drawing.Size(1061, 678);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtMaThuoc);
             this.Controls.Add(this.label2);

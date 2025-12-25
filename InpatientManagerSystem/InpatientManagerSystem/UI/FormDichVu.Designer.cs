@@ -154,6 +154,7 @@
             this.txtDonViTinh.Name = "txtDonViTinh";
             this.txtDonViTinh.Size = new System.Drawing.Size(493, 29);
             this.txtDonViTinh.TabIndex = 12;
+            this.txtDonViTinh.TextChanged += new System.EventHandler(this.txtDonViTinh_TextChanged);
             // 
             // txtDonGia
             // 
@@ -288,6 +289,7 @@
             this.btnTimKiem.TabIndex = 8;
             this.btnTimKiem.Text = "Tìm kiếm";
             this.btnTimKiem.UseVisualStyleBackColor = false;
+            this.btnTimKiem.Click += new System.EventHandler(this.btnTimKiem_Click_1);
             // 
             // txtTimKiem
             // 
@@ -298,6 +300,7 @@
             this.txtTimKiem.Name = "txtTimKiem";
             this.txtTimKiem.Size = new System.Drawing.Size(292, 29);
             this.txtTimKiem.TabIndex = 7;
+            this.txtTimKiem.TextChanged += new System.EventHandler(this.txtTimKiem_TextChanged);
             // 
             // btnLamMoi
             // 
