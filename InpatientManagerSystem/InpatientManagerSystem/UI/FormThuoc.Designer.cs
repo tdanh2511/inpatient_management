@@ -223,7 +223,11 @@ namespace InpatientManagerSystem
             this.txtTimKiem.Name = "txtTimKiem";
             this.txtTimKiem.Size = new System.Drawing.Size(230, 29);
             this.txtTimKiem.TabIndex = 18;
+<<<<<<< HEAD
             this.txtTimKiem.Text = "";
+=======
+            this.txtTimKiem.TextChanged += new System.EventHandler(this.txtTimKiem_TextChanged);
+>>>>>>> 5287656672f5601a13aa16b125e0bee07ab4997c
             // 
             // btnThem
             // 
@@ -295,7 +299,11 @@ namespace InpatientManagerSystem
             // 
             // FormThuoc
             // 
+<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(1105, 663);
+=======
+            this.ClientSize = new System.Drawing.Size(1061, 678);
+>>>>>>> 5287656672f5601a13aa16b125e0bee07ab4997c
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtMaThuoc);
             this.Controls.Add(this.label2);

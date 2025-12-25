@@ -517,12 +517,16 @@ namespace InpatientManagerSystem
 
         }
 
+<<<<<<< HEAD
         private void labelTimKiem_Click(object sender, EventArgs e)
         {
 
         }
 
         private void btnThem_Click(object sender, EventArgs e)
+=======
+        private void txtTimKiem_TextChanged(object sender, EventArgs e)
+>>>>>>> 5287656672f5601a13aa16b125e0bee07ab4997c
         {
 
         }

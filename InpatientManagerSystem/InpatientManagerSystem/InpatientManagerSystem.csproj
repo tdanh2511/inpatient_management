@@ -112,17 +112,29 @@
   <ItemGroup>
     <Compile Include="BUS\BenhNhanBUS.cs" />
     <Compile Include="BUS\DichVuBUS.cs" />
+<<<<<<< HEAD
     <Compile Include="BUS\ThuocBUS.cs" />
+=======
+    <Compile Include="BUS\PhongBUS.cs" />
+>>>>>>> 5287656672f5601a13aa16b125e0bee07ab4997c
     <Compile Include="DAO\BenhNhanDAO.cs" />
     <Compile Include="DAO\DichVuDAO.cs" />
     <Compile Include="DAO\NguoiDungDAO.cs" />
     <Compile Include="DAO\DBConnection.cs" />
     <Compile Include="BUS\NguoiDungBus.cs" />
+<<<<<<< HEAD
     <Compile Include="DAO\ThuocDAO.cs" />
     <Compile Include="DTO\BenhNhanDTO.cs" />
     <Compile Include="DTO\DichVuDTO.cs" />
     <Compile Include="DTO\NguoiDungDTO.cs" />
     <Compile Include="DTO\ThuocDTO.cs" />
+=======
+    <Compile Include="DAO\PhongDAO.cs" />
+    <Compile Include="DTO\BenhNhanDTO.cs" />
+    <Compile Include="DTO\DichVuDTO.cs" />
+    <Compile Include="DTO\NguoiDungDTO.cs" />
+    <Compile Include="DTO\PhongDTO.cs" />
+>>>>>>> 5287656672f5601a13aa16b125e0bee07ab4997c
     <Compile Include="UI\FormBacSi.cs">
       <SubType>Form</SubType>
     </Compile>
