@@ -418,5 +418,20 @@ namespace InpatientManagerSystem.UI
         {
 
         }
+
+        private void txtTimKiem_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnTimKiem_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtDonViTinh_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
