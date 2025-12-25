@@ -38,7 +38,7 @@ components.Dispose();
             this.tableLayoutPanel1.Controls.Add(this.panel1, 0, 2);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 4;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 40F));
@@ -80,7 +80,7 @@ components.Dispose();
             this.panel1.Controls.Add(this.lblTime);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(4, 300);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1376, 140);
             this.panel1.TabIndex = 2;
@@ -97,6 +97,7 @@ components.Dispose();
             this.lblDate.TabIndex = 1;
             this.lblDate.Text = "Thứ Hai, 01/01/2024";
             this.lblDate.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.lblDate.Click += new System.EventHandler(this.lblDate_Click);
             // 
             // lblTime
             // 
@@ -112,15 +113,15 @@ components.Dispose();
             this.lblTime.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblTime.Click += new System.EventHandler(this.lblTime_Click);
             // 
-            // WelcomePanel
+            // FormWelcomePanel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1384, 743);
             this.Controls.Add(this.tableLayoutPanel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.Name = "WelcomePanel";
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Name = "FormWelcomePanel";
             this.Text = "Welcome";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
