@@ -37,6 +37,13 @@ namespace InpatientManagerSystem.UI
             LoadDanhSach();
             ConfigureDataGridView();
             ClearForm();
+
+            // Thiết lập các trường ReadOnly
+            txtMaDV.ReadOnly = true;  // Mã dịch vụ tự động, không cho sửa
+            txtMaDV.BackColor = Color.LightGray;  // Đổi màu nền để dễ nhận biết
+
+            // Thiết lập ComboBox chỉ cho phép CHỌN, không cho nhập tự do
+            cboTrangThai.DropDownStyle = ComboBoxStyle.DropDownList;
         }
 
         // Cấu hình DataGridView
