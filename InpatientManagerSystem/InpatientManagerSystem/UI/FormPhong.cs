@@ -324,5 +324,10 @@ namespace InpatientManagerSystem.UI
         {
 
         }
+
+        private void FormPhong_Load_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

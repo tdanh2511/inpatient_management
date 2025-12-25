@@ -275,6 +275,7 @@ namespace InpatientManagerSystem.UI
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormPhong";
             this.Text = "Quản lý phòng";
+            this.Load += new System.EventHandler(this.FormPhong_Load_1);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.groupBox1.ResumeLayout(false);

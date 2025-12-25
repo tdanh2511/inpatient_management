@@ -38,7 +38,7 @@
             this.txtDiaChi = new System.Windows.Forms.TextBox();
             this.txtCCCD = new System.Windows.Forms.TextBox();
             this.txtHoTen = new System.Windows.Forms.TextBox();
-            this.txtMaND = new System.Windows.Forms.TextBox();
+            this.cboMaNguoiDung = new System.Windows.Forms.ComboBox();
             this.txtMaBS = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
@@ -96,7 +96,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "QUẢN LÝ BÁC SĨ";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // groupBox1
             // 
@@ -107,7 +106,7 @@
             this.groupBox1.Controls.Add(this.txtDiaChi);
             this.groupBox1.Controls.Add(this.txtCCCD);
             this.groupBox1.Controls.Add(this.txtHoTen);
-            this.groupBox1.Controls.Add(this.txtMaND);
+            this.groupBox1.Controls.Add(this.cboMaNguoiDung);
             this.groupBox1.Controls.Add(this.txtMaBS);
             this.groupBox1.Controls.Add(this.label10);
             this.groupBox1.Controls.Add(this.label9);
@@ -140,6 +139,7 @@
             // 
             // cboGioiTinh
             // 
+            this.cboGioiTinh.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboGioiTinh.FormattingEnabled = true;
             this.cboGioiTinh.Items.AddRange(new object[] {
             "Nam",
@@ -198,20 +198,23 @@
             this.txtHoTen.Size = new System.Drawing.Size(425, 29);
             this.txtHoTen.TabIndex = 11;
             // 
-            // txtMaND
+            // cboMaNguoiDung
             // 
-            this.txtMaND.Location = new System.Drawing.Point(200, 81);
-            this.txtMaND.Margin = new System.Windows.Forms.Padding(4);
-            this.txtMaND.Name = "txtMaND";
-            this.txtMaND.Size = new System.Drawing.Size(425, 29);
-            this.txtMaND.TabIndex = 10;
-            this.txtMaND.TextChanged += new System.EventHandler(this.txtMaND_TextChanged);
+            this.cboMaNguoiDung.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboMaNguoiDung.FormattingEnabled = true;
+            this.cboMaNguoiDung.Location = new System.Drawing.Point(200, 81);
+            this.cboMaNguoiDung.Margin = new System.Windows.Forms.Padding(4);
+            this.cboMaNguoiDung.Name = "cboMaNguoiDung";
+            this.cboMaNguoiDung.Size = new System.Drawing.Size(425, 30);
+            this.cboMaNguoiDung.TabIndex = 10;
             // 
             // txtMaBS
             // 
+            this.txtMaBS.BackColor = System.Drawing.Color.LightGray;
             this.txtMaBS.Location = new System.Drawing.Point(200, 36);
             this.txtMaBS.Margin = new System.Windows.Forms.Padding(4);
             this.txtMaBS.Name = "txtMaBS";
+            this.txtMaBS.ReadOnly = true;
             this.txtMaBS.Size = new System.Drawing.Size(425, 29);
             this.txtMaBS.TabIndex = 9;
             // 
@@ -448,7 +451,7 @@
         private System.Windows.Forms.TextBox txtDiaChi;
         private System.Windows.Forms.TextBox txtCCCD;
         private System.Windows.Forms.TextBox txtHoTen;
-        private System.Windows.Forms.TextBox txtMaND;
+        private System.Windows.Forms.ComboBox cboMaNguoiDung;
         private System.Windows.Forms.TextBox txtMaBS;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
