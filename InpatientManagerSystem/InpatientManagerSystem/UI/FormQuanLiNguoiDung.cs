@@ -23,6 +23,14 @@ namespace InpatientManagerSystem.UI
 
         private void FormQuanLiNguoiDung_Load(object sender, EventArgs e)
         {
+            cboVaiTro.Items.AddRange(new object[] { "Admin", "Bác sĩ", "Lễ tân" });
+            cboVaiTro.DropDownStyle = ComboBoxStyle.DropDownList;
+            cboTrangThai.Items.AddRange(new object[] { "Hoạt động", "Không hoạt động" });
+            cboTrangThai.DropDownStyle = ComboBoxStyle.DropDownList;
+            txtMaND.Enabled = false;
+            dgvNguoiDung.ReadOnly = true;                 
+            dgvNguoiDung.AllowUserToAddRows = false;      
+            dgvNguoiDung.AllowUserToDeleteRows = false;
             LoadDanhSach();
         }
 
@@ -46,6 +54,7 @@ namespace InpatientManagerSystem.UI
                 if (result)
                 {
                     MessageBox.Show("Thêm người dùng thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    LoadDanhSach();
                 }
                 else
                 {

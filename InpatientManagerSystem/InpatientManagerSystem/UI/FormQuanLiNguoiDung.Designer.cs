@@ -125,10 +125,6 @@
             this.cboVaiTro.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.cboVaiTro.FormattingEnabled = true;
-            this.cboVaiTro.Items.AddRange(new object[] {
-            "Admin",
-            "BacSi",
-            "LeTan"});
             this.cboVaiTro.Location = new System.Drawing.Point(625, 30);
             this.cboVaiTro.Name = "cboVaiTro";
             this.cboVaiTro.Size = new System.Drawing.Size(387, 25);
@@ -139,9 +135,6 @@
             this.cboTrangThai.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.cboTrangThai.FormattingEnabled = true;
-            this.cboTrangThai.Items.AddRange(new object[] {
-            "Hoạt động",
-            "Không hoạt động"});
             this.cboTrangThai.Location = new System.Drawing.Point(625, 140);
             this.cboTrangThai.Name = "cboTrangThai";
             this.cboTrangThai.Size = new System.Drawing.Size(387, 25);
