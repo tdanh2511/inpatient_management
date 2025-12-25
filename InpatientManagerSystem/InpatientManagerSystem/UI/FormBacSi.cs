@@ -26,5 +26,10 @@ namespace InpatientManagerSystem.UI
         {
 
         }
+
+        private void FormBacSi_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

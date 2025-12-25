@@ -14,7 +14,7 @@ DROP TABLE IF EXISTS nguoidung;
 CREATE TABLE nguoidung (
     MaNguoiDung INT AUTO_INCREMENT PRIMARY KEY,
     TenDangNhap VARCHAR(50) UNIQUE NOT NULL,
-    MaThuocKhau VARCHAR(255) NOT NULL,
+    MatKhau VARCHAR(255) NOT NULL,
     HoTen VARCHAR(100) NOT NULL,
     VaiTro ENUM('Admin','BacSi','LeTan') NOT NULL,
     Email VARCHAR(100),
@@ -275,7 +275,7 @@ CREATE TABLE chitietdonthuoc (
 ) ENGINE=InnoDB;
 
 -- =========================
--- BẢNG DỊCH VỤ
+-- BẢNG DỊCH VỤ`
 -- =========================
 DROP TABLE IF EXISTS dichvu;
 CREATE TABLE dichvu (

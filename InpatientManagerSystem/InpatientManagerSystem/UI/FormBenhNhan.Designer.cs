@@ -401,6 +401,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormBenhNhan";
             this.Text = "Quản lý bệnh nhân";
+            this.Load += new System.EventHandler(this.FormBenhNhan_Load_1);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.groupBox1.ResumeLayout(false);

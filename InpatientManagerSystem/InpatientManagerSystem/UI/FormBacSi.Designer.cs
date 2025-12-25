@@ -424,6 +424,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormBacSi";
             this.Text = "Quản lý bác sĩ";
+            this.Load += new System.EventHandler(this.FormBacSi_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
