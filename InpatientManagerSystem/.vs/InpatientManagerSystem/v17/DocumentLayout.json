@@ -3,284 +3,104 @@
   "WorkspaceRootPath": "D:\\C#\\BV\\InpatientManagerSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\ui\\formbacsi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\ui\\formbacsi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|d:\\c#\\bv\\inpatientmanagersystem\\inpatientmanagersystem\\dao\\bacsidao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\dao\\bacsidao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\dao\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\dao\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|d:\\c#\\bv\\inpatientmanagersystem\\inpatientmanagersystem\\bus\\bacsibus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\bus\\bacsibus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|d:\\c#\\bv\\inpatientmanagersystem\\inpatientmanagersystem\\dto\\bacsidto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\dto\\bacsidto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\dao\\phongdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\dao\\phongdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\dto\\phongdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\dto\\phongdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\SQL\\Database.sql||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:InpatientManagerSystem\\SQL\\Database.sql||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|d:\\c#\\bv\\inpatientmanagersystem\\inpatientmanagersystem\\ui\\formphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\ui\\formphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\ui\\formphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\ui\\formphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\dao\\dichvudao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\dao\\dichvudao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\dto\\nguoidungdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\dto\\nguoidungdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\dto\\dichvudto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\dto\\dichvudto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\dto\\benhnhandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\dto\\benhnhandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\dao\\benhnhandao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\dao\\benhnhandao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\bus\\benhnhanbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\bus\\benhnhanbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\ui\\formdichvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\ui\\formdichvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\ui\\formdichvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\ui\\formdichvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\ui\\formdichvu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\ui\\formdichvu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\ui\\formdichvu.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\ui\\formdichvu.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\ui\\formhoso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\ui\\formhoso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\ui\\formgiuong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\ui\\formgiuong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormThuoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:InpatientManagerSystem\\UI\\FormThuoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\ui\\formthuoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\ui\\formthuoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\ui\\formwelcomepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\ui\\formwelcomepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\ui\\formquanlinguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\ui\\formquanlinguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\ui\\formbenhnhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\ui\\formbenhnhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\bus\\nguoidungbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\bus\\nguoidungbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\ui\\formbenhnhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\ui\\formbenhnhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\ui\\formquanlinguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\ui\\formquanlinguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\dao\\nguoidungdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\dao\\nguoidungdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\ui\\formthanhtoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\ui\\formthanhtoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\ui\\formbacsi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\ui\\formbacsi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\ui\\formbenhnhan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\ui\\formbenhnhan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\ui\\formwelcomepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\ui\\formwelcomepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\ui\\formhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\ui\\formhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\ui\\formxuatvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\ui\\formxuatvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\ui\\formkhambenh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\ui\\formkhambenh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\ui\\formthanhtoan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\ui\\formthanhtoan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|d:\\c#\\bv\\inpatientmanagersystem\\inpatientmanagersystem\\ui\\formhoso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\ui\\formhoso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\ui\\formthanhtoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\ui\\formthanhtoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\bus\\hosobus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\bus\\hosobus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\ui\\formgiuong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\ui\\formgiuong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|d:\\c#\\bv\\inpatientmanagersystem\\inpatientmanagersystem\\bus\\donthuocbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\bus\\donthuocbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\ui\\formdonthuoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\ui\\formdonthuoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|d:\\c#\\bv\\inpatientmanagersystem\\inpatientmanagersystem\\bus\\dichvubus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\bus\\dichvubus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\ui\\formdonthuoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\dao\\hosodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\dao\\hosodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|d:\\c#\\bv\\inpatientmanagersystem\\inpatientmanagersystem\\dto\\benhnhandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\dto\\benhnhandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|d:\\c#\\bv\\inpatientmanagersystem\\inpatientmanagersystem\\ui\\formhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\ui\\formhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|d:\\c#\\bv\\inpatientmanagersystem\\inpatientmanagersystem\\ui\\formhoso.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\ui\\formhoso.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|d:\\c#\\bv\\inpatientmanagersystem\\inpatientmanagersystem\\sql\\fixtriggers.sql||{3B902123-F8A7-4915-9F01-361F908088D0}|",
+      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\sql\\fixtriggers.sql||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\sql\\database.sql||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\sql\\database.sql||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|d:\\c#\\bv\\inpatientmanagersystem\\inpatientmanagersystem\\ui\\formdonthuoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\ui\\formdonthuoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\ui\\formkhambenh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\ui\\formkhambenh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\ui\\formhoso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\ui\\formhoso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\bus\\khambenhbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\bus\\khambenhbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\dao\\khambenhdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\dao\\khambenhdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|d:\\c#\\bv\\inpatientmanagersystem\\inpatientmanagersystem\\dto\\khambenh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\dto\\khambenh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\dto\\hoso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\dto\\hoso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\ui\\formkhambenh.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\ui\\formkhambenh.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\ui\\formthuoc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\ui\\formthuoc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\ui\\formpopupchitiethoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\ui\\formpopupchitiethoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\ui\\formhoso.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\ui\\formhoso.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\ui\\formpopupchitietthuoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\ui\\formpopupchitietthuoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|d:\\c#\\bv\\inpatientmanagersystem\\inpatientmanagersystem\\formkhambenh_guide.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\formkhambenh_guide.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\ui\\formpopupchitietdonthuoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\ui\\formpopupchitietdonthuoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|d:\\c#\\bv\\inpatientmanagersystem\\inpatientmanagersystem\\testing_guide.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\testing_guide.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|d:\\c#\\bv\\inpatientmanagersystem\\inpatientmanagersystem\\combobox_filter_guide.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|",
+      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\combobox_filter_guide.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\formmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\formmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\ui\\welcomepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inpatientmanagersystem\\ui\\welcomepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\ui\\benhnhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inpatientmanagersystem\\ui\\benhnhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\ui\\khambenh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inpatientmanagersystem\\ui\\khambenh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\WelcomePanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:InpatientManagerSystem\\UI\\WelcomePanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\BacSi.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:InpatientManagerSystem\\UI\\BacSi.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\ui\\quanlinguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inpatientmanagersystem\\ui\\quanlinguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\BenhNhan.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:InpatientManagerSystem\\UI\\BenhNhan.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\WelcomePanel.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:InpatientManagerSystem\\UI\\WelcomePanel.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\ui\\dichvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inpatientmanagersystem\\ui\\dichvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\QuanLiNguoiDung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:InpatientManagerSystem\\UI\\QuanLiNguoiDung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\KhamBenh.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:InpatientManagerSystem\\UI\\KhamBenh.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\ui\\bacsi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inpatientmanagersystem\\ui\\bacsi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\QuanLiNguoiDung.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:InpatientManagerSystem\\UI\\QuanLiNguoiDung.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\KhamBenh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:InpatientManagerSystem\\UI\\KhamBenh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\DichVu.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:InpatientManagerSystem\\UI\\DichVu.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\bus\\dichvubus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\bus\\dichvubus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|D:\\C#\\BV\\InpatientManagerSystem\\inpatientmanagersystem\\bus\\phongbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\bus\\phongbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|d:\\c#\\bv\\inpatientmanagersystem\\inpatientmanagersystem\\ui\\formbacsi.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\ui\\formbacsi.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|d:\\c#\\bv\\inpatientmanagersystem\\inpatientmanagersystem\\formkhambenh_textbox_readonly.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|",
+      "RelativeMoniker": "D:0:0:{09D259CE-CD47-40B5-A8CA-375CFD4C434C}|InpatientManagerSystem\\InpatientManagerSystem.csproj|solutionrelative:inpatientmanagersystem\\formkhambenh_textbox_readonly.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -290,7 +110,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -314,579 +134,314 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BacSiDAO.cs",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\DAO\\BacSiDAO.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\DAO\\BacSiDAO.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\DAO\\BacSiDAO.cs",
-              "RelativeToolTip": "InpatientManagerSystem\\DAO\\BacSiDAO.cs",
-              "ViewState": "AgIAAEoBAAAAAAAAAAAuwFEBAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-25T09:13:37.612Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PhongDTO.cs",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\DTO\\PhongDTO.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\DTO\\PhongDTO.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\DTO\\PhongDTO.cs",
-              "RelativeToolTip": "InpatientManagerSystem\\DTO\\PhongDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-25T07:41:42.649Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BacSiDTO.cs",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\DTO\\BacSiDTO.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\DTO\\BacSiDTO.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\DTO\\BacSiDTO.cs",
-              "RelativeToolTip": "InpatientManagerSystem\\DTO\\BacSiDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-25T09:12:29.418Z",
+              "DocumentIndex": 24,
+              "Title": "FORMKHAMBENH_TEXTBOX_READONLY.md",
+              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\FORMKHAMBENH_TEXTBOX_READONLY.md",
+              "RelativeDocumentMoniker": "InpatientManagerSystem\\FORMKHAMBENH_TEXTBOX_READONLY.md",
+              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\FORMKHAMBENH_TEXTBOX_READONLY.md",
+              "RelativeToolTip": "InpatientManagerSystem\\FORMKHAMBENH_TEXTBOX_READONLY.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-12-26T07:22:15.962Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DBConnection.cs",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\DAO\\DBConnection.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\DAO\\DBConnection.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\DAO\\DBConnection.cs",
-              "RelativeToolTip": "InpatientManagerSystem\\DAO\\DBConnection.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAmwBkAAAAAAAAAAAAAAA==",
+              "Title": "HoSoBUS.cs",
+              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\BUS\\HoSoBUS.cs",
+              "RelativeDocumentMoniker": "InpatientManagerSystem\\BUS\\HoSoBUS.cs",
+              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\BUS\\HoSoBUS.cs",
+              "RelativeToolTip": "InpatientManagerSystem\\BUS\\HoSoBUS.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAASwAsAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-25T02:57:40.502Z",
+              "WhenOpened": "2025-12-26T06:19:09.57Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FormBacSi.cs [Design]",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormBacSi.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\FormBacSi.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormBacSi.cs [Design]",
-              "RelativeToolTip": "InpatientManagerSystem\\UI\\FormBacSi.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T13:25:32.783Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BacSiBUS.cs",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\BUS\\BacSiBUS.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\BUS\\BacSiBUS.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\BUS\\BacSiBUS.cs",
-              "RelativeToolTip": "InpatientManagerSystem\\BUS\\BacSiBUS.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAEMAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-25T09:14:08.97Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Database.sql",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\SQL\\Database.sql",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\SQL\\Database.sql",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\SQL\\Database.sql",
-              "RelativeToolTip": "InpatientManagerSystem\\SQL\\Database.sql",
-              "ViewState": "AgIAAMUBAAAAAAAAAAAUwM0BAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-12-24T13:24:36.379Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 69,
-              "Title": "FormBacSi.Designer.cs",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormBacSi.Designer.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\FormBacSi.Designer.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormBacSi.Designer.cs",
-              "RelativeToolTip": "InpatientManagerSystem\\UI\\FormBacSi.Designer.cs",
-              "ViewState": "AgIAANYBAAAAAAAAAABRwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-25T09:09:39.688Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PhongDAO.cs",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\DAO\\PhongDAO.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\DAO\\PhongDAO.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\DAO\\PhongDAO.cs",
-              "RelativeToolTip": "InpatientManagerSystem\\DAO\\PhongDAO.cs",
-              "ViewState": "AgIAAHwAAAAAAAAAAAA5wIEAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-25T07:42:07.953Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "FormPhong.cs",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormPhong.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\FormPhong.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormPhong.cs",
-              "RelativeToolTip": "InpatientManagerSystem\\UI\\FormPhong.cs",
-              "ViewState": "AgIAAMcAAAAAAAAAAADwv84AAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-25T07:43:04.051Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "FormPhong.cs [Design]",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormPhong.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\FormPhong.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormPhong.cs [Design]",
-              "RelativeToolTip": "InpatientManagerSystem\\UI\\FormPhong.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-25T07:40:48.911Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DichVuDAO.cs",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\DAO\\DichVuDAO.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\DAO\\DichVuDAO.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\DAO\\DichVuDAO.cs",
-              "RelativeToolTip": "InpatientManagerSystem\\DAO\\DichVuDAO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-25T03:36:36.139Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "NguoiDungDTO.cs",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\DTO\\NguoiDungDTO.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\DTO\\NguoiDungDTO.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\DTO\\NguoiDungDTO.cs",
-              "RelativeToolTip": "InpatientManagerSystem\\DTO\\NguoiDungDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-25T03:03:39.798Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DichVuDTO.cs",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\DTO\\DichVuDTO.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\DTO\\DichVuDTO.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\DTO\\DichVuDTO.cs",
-              "RelativeToolTip": "InpatientManagerSystem\\DTO\\DichVuDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-25T03:35:59.536Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "BenhNhanDTO.cs",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\DTO\\BenhNhanDTO.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\DTO\\BenhNhanDTO.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\DTO\\BenhNhanDTO.cs",
-              "RelativeToolTip": "InpatientManagerSystem\\DTO\\BenhNhanDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-25T03:09:44.489Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "BenhNhanDAO.cs",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\DAO\\BenhNhanDAO.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\DAO\\BenhNhanDAO.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\DAO\\BenhNhanDAO.cs",
-              "RelativeToolTip": "InpatientManagerSystem\\DAO\\BenhNhanDAO.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACUBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-25T03:10:18.346Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "BenhNhanBUS.cs",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\BUS\\BenhNhanBUS.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\BUS\\BenhNhanBUS.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\BUS\\BenhNhanBUS.cs",
-              "RelativeToolTip": "InpatientManagerSystem\\BUS\\BenhNhanBUS.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJ8AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-25T03:10:41.757Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "FormDichVu.cs",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormDichVu.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\FormDichVu.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormDichVu.cs",
-              "RelativeToolTip": "InpatientManagerSystem\\UI\\FormDichVu.cs",
-              "ViewState": "AgIAAOEAAAAAAAAAAAAtwJkAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T13:48:28.83Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "FormDichVu.cs [Design]",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormDichVu.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\FormDichVu.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormDichVu.cs [Design]",
-              "RelativeToolTip": "InpatientManagerSystem\\UI\\FormDichVu.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T13:24:13.174Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "FormDichVu.resx",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormDichVu.resx",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\FormDichVu.resx",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormDichVu.resx",
-              "RelativeToolTip": "InpatientManagerSystem\\UI\\FormDichVu.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-12-25T08:06:16.186Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 1,
               "Title": "FormHoSo.cs [Design]",
               "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormHoSo.cs",
               "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\FormHoSo.cs",
               "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormHoSo.cs [Design]",
               "RelativeToolTip": "InpatientManagerSystem\\UI\\FormHoSo.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T13:48:43.5Z"
+              "WhenOpened": "2025-12-26T06:30:50.078Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "FormDichVu.Designer.cs",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormDichVu.Designer.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\FormDichVu.Designer.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormDichVu.Designer.cs",
-              "RelativeToolTip": "InpatientManagerSystem\\UI\\FormDichVu.Designer.cs",
-              "ViewState": "AgIAAJoBAAAAAAAAAAASwJ4BAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-25T08:03:01.591Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "FormGiuong.cs [Design]",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormGiuong.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\FormGiuong.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormGiuong.cs [Design]",
-              "RelativeToolTip": "InpatientManagerSystem\\UI\\FormGiuong.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T13:48:37.142Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "FormThuoc.cs",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormThuoc.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\FormThuoc.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormThuoc.cs",
-              "RelativeToolTip": "InpatientManagerSystem\\UI\\FormThuoc.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAASwEwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T12:04:30.496Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "FormThuoc.cs [Design]",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormThuoc.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\FormThuoc.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormThuoc.cs [Design]",
-              "RelativeToolTip": "InpatientManagerSystem\\UI\\FormThuoc.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-25T08:01:26.255Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "FormQuanLiNguoiDung.cs [Design]",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormQuanLiNguoiDung.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\FormQuanLiNguoiDung.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormQuanLiNguoiDung.cs [Design]",
-              "RelativeToolTip": "InpatientManagerSystem\\UI\\FormQuanLiNguoiDung.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T14:07:03.244Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "FormWelcomePanel.cs [Design]",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormWelcomePanel.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\FormWelcomePanel.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormWelcomePanel.cs [Design]",
-              "RelativeToolTip": "InpatientManagerSystem\\UI\\FormWelcomePanel.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T13:48:51.143Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 68,
-              "Title": "PhongBUS.cs",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\BUS\\PhongBUS.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\BUS\\PhongBUS.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\BUS\\PhongBUS.cs",
-              "RelativeToolTip": "InpatientManagerSystem\\BUS\\PhongBUS.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-25T07:42:25.947Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "FormBenhNhan.cs",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormBenhNhan.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\FormBenhNhan.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormBenhNhan.cs",
-              "RelativeToolTip": "InpatientManagerSystem\\UI\\FormBenhNhan.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T13:48:32.592Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "NguoiDungBus.cs",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\BUS\\NguoiDungBus.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\BUS\\NguoiDungBus.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\BUS\\NguoiDungBus.cs",
-              "RelativeToolTip": "InpatientManagerSystem\\BUS\\NguoiDungBus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-25T03:03:16.152Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "FormBenhNhan.cs [Design]",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormBenhNhan.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\FormBenhNhan.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormBenhNhan.cs [Design]",
-              "RelativeToolTip": "InpatientManagerSystem\\UI\\FormBenhNhan.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T13:48:31.35Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "NguoiDungDAO.cs",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\DAO\\NguoiDungDAO.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\DAO\\NguoiDungDAO.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\DAO\\NguoiDungDAO.cs",
-              "RelativeToolTip": "InpatientManagerSystem\\DAO\\NguoiDungDAO.cs",
-              "ViewState": "AgIAAMwAAAAAAAAAAAAEwNMAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-25T03:04:00.722Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "FormQuanLiNguoiDung.cs",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormQuanLiNguoiDung.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\FormQuanLiNguoiDung.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormQuanLiNguoiDung.cs",
-              "RelativeToolTip": "InpatientManagerSystem\\UI\\FormQuanLiNguoiDung.cs",
-              "ViewState": "AgIAAJcBAAAAAAAAAADgv6gBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-25T03:55:13.903Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "FormThanhToan.cs [Design]",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormThanhToan.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\FormThanhToan.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormThanhToan.cs [Design]",
-              "RelativeToolTip": "InpatientManagerSystem\\UI\\FormThanhToan.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T14:07:22.836Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "FormBacSi.cs",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormBacSi.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\FormBacSi.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormBacSi.cs",
-              "RelativeToolTip": "InpatientManagerSystem\\UI\\FormBacSi.cs",
-              "ViewState": "AgIAACgCAAAAAAAAAMBdwJMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T13:48:35.227Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 67,
-              "Title": "DichVuBUS.cs",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\BUS\\DichVuBUS.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\BUS\\DichVuBUS.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\BUS\\DichVuBUS.cs",
-              "RelativeToolTip": "InpatientManagerSystem\\BUS\\DichVuBUS.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-25T03:36:54.234Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "FormBenhNhan.Designer.cs",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormBenhNhan.Designer.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\FormBenhNhan.Designer.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormBenhNhan.Designer.cs",
-              "RelativeToolTip": "InpatientManagerSystem\\UI\\FormBenhNhan.Designer.cs",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAAAKgAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-25T03:15:33.264Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "FormHoaDon.cs [Design]",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormHoaDon.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\FormHoaDon.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormHoaDon.cs [Design]",
-              "RelativeToolTip": "InpatientManagerSystem\\UI\\FormHoaDon.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T12:14:38.254Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "App.config",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\App.config",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\App.config",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\App.config",
-              "RelativeToolTip": "InpatientManagerSystem\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-12-24T05:01:30.462Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "FormMain.cs [Design]",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\FormMain.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\FormMain.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\FormMain.cs [Design]",
-              "RelativeToolTip": "InpatientManagerSystem\\FormMain.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T12:21:42.564Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "FormXuatVien.cs [Design]",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormXuatVien.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\FormXuatVien.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormXuatVien.cs [Design]",
-              "RelativeToolTip": "InpatientManagerSystem\\UI\\FormXuatVien.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T12:15:06.663Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "FormWelcomePanel.cs",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormWelcomePanel.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\FormWelcomePanel.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormWelcomePanel.cs",
-              "RelativeToolTip": "InpatientManagerSystem\\UI\\FormWelcomePanel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-25T01:40:46.778Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 0,
               "Title": "FormKhamBenh.cs [Design]",
               "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormKhamBenh.cs",
               "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\FormKhamBenh.cs",
               "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormKhamBenh.cs [Design]",
               "RelativeToolTip": "InpatientManagerSystem\\UI\\FormKhamBenh.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-25T01:40:05.092Z"
+              "WhenOpened": "2025-12-26T06:02:42.532Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "FormThanhToan.Designer.cs",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormThanhToan.Designer.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\FormThanhToan.Designer.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormThanhToan.Designer.cs",
-              "RelativeToolTip": "InpatientManagerSystem\\UI\\FormThanhToan.Designer.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAYwCUAAAArAAAAAAAAAA==",
+              "DocumentIndex": 21,
+              "Title": "FORMKHAMBENH_GUIDE.md",
+              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\FORMKHAMBENH_GUIDE.md",
+              "RelativeDocumentMoniker": "InpatientManagerSystem\\FORMKHAMBENH_GUIDE.md",
+              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\FORMKHAMBENH_GUIDE.md",
+              "RelativeToolTip": "InpatientManagerSystem\\FORMKHAMBENH_GUIDE.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-12-26T06:58:32.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "COMBOBOX_FILTER_GUIDE.md",
+              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\COMBOBOX_FILTER_GUIDE.md",
+              "RelativeDocumentMoniker": "InpatientManagerSystem\\COMBOBOX_FILTER_GUIDE.md",
+              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\COMBOBOX_FILTER_GUIDE.md",
+              "RelativeToolTip": "InpatientManagerSystem\\COMBOBOX_FILTER_GUIDE.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAN8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-12-26T07:10:18.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BenhNhanDTO.cs",
+              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\DTO\\BenhNhanDTO.cs",
+              "RelativeDocumentMoniker": "InpatientManagerSystem\\DTO\\BenhNhanDTO.cs",
+              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\DTO\\BenhNhanDTO.cs",
+              "RelativeToolTip": "InpatientManagerSystem\\DTO\\BenhNhanDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T14:16:21.654Z"
+              "WhenOpened": "2025-12-26T06:58:51.662Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "FormThanhToan.cs",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormThanhToan.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\FormThanhToan.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormThanhToan.cs",
-              "RelativeToolTip": "InpatientManagerSystem\\UI\\FormThanhToan.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAADwv0cAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "DichVuBUS.cs",
+              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\BUS\\DichVuBUS.cs",
+              "RelativeDocumentMoniker": "InpatientManagerSystem\\BUS\\DichVuBUS.cs",
+              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\BUS\\DichVuBUS.cs",
+              "RelativeToolTip": "InpatientManagerSystem\\BUS\\DichVuBUS.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T14:07:38.376Z"
+              "WhenOpened": "2025-12-26T06:59:39.454Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "FormGiuong.cs",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormGiuong.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\FormGiuong.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormGiuong.cs",
-              "RelativeToolTip": "InpatientManagerSystem\\UI\\FormGiuong.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAADwvxUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "DonThuocBUS.cs",
+              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\BUS\\DonThuocBUS.cs",
+              "RelativeDocumentMoniker": "InpatientManagerSystem\\BUS\\DonThuocBUS.cs",
+              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\BUS\\DonThuocBUS.cs",
+              "RelativeToolTip": "InpatientManagerSystem\\BUS\\DonThuocBUS.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T13:48:39.056Z"
+              "WhenOpened": "2025-12-26T06:30:27.593Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 22,
+              "Title": "TESTING_GUIDE.md",
+              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\TESTING_GUIDE.md",
+              "RelativeDocumentMoniker": "InpatientManagerSystem\\TESTING_GUIDE.md",
+              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\TESTING_GUIDE.md",
+              "RelativeToolTip": "InpatientManagerSystem\\TESTING_GUIDE.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-12-26T06:58:32.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FormHoSo.resx",
+              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormHoSo.resx",
+              "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\FormHoSo.resx",
+              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormHoSo.resx",
+              "RelativeToolTip": "InpatientManagerSystem\\UI\\FormHoSo.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-12-26T06:50:36.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HoSoDAO.cs",
+              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\DAO\\HoSoDAO.cs",
+              "RelativeDocumentMoniker": "InpatientManagerSystem\\DAO\\HoSoDAO.cs",
+              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\DAO\\HoSoDAO.cs",
+              "RelativeToolTip": "InpatientManagerSystem\\DAO\\HoSoDAO.cs",
+              "ViewState": "AgIAAN8BAAAAAAAAAAASwAsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T06:18:45.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormHoaDon.cs [Design]",
+              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormHoaDon.cs",
+              "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\FormHoaDon.cs",
+              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormHoaDon.cs [Design]",
+              "RelativeToolTip": "InpatientManagerSystem\\UI\\FormHoaDon.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T06:50:40.294Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FixTriggers.sql",
+              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\SQL\\FixTriggers.sql",
+              "RelativeDocumentMoniker": "InpatientManagerSystem\\SQL\\FixTriggers.sql",
+              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\SQL\\FixTriggers.sql",
+              "RelativeToolTip": "InpatientManagerSystem\\SQL\\FixTriggers.sql",
+              "ViewState": "AgIAALkAAAAAAAAAAAAUwNAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-12-26T06:45:17.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FormHoSo.cs",
+              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormHoSo.cs",
+              "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\FormHoSo.cs",
+              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormHoSo.cs",
+              "RelativeToolTip": "InpatientManagerSystem\\UI\\FormHoSo.cs",
+              "ViewState": "AgIAAMsBAAAAAAAAAAASwNsBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T06:21:43.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "FormDonThuoc.cs [Design]",
               "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormDonThuoc.cs",
               "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\FormDonThuoc.cs",
               "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormDonThuoc.cs [Design]",
               "RelativeToolTip": "InpatientManagerSystem\\UI\\FormDonThuoc.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T12:14:39.544Z"
+              "WhenOpened": "2025-12-26T06:31:18.303Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "FormDonThuoc.cs",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormDonThuoc.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\FormDonThuoc.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormDonThuoc.cs",
-              "RelativeToolTip": "InpatientManagerSystem\\UI\\FormDonThuoc.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAADwvzgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "Database.sql",
+              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\SQL\\Database.sql",
+              "RelativeDocumentMoniker": "InpatientManagerSystem\\SQL\\Database.sql",
+              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\SQL\\Database.sql",
+              "RelativeToolTip": "InpatientManagerSystem\\SQL\\Database.sql",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-12-26T06:02:38.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FormKhamBenh.cs",
+              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormKhamBenh.cs",
+              "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\FormKhamBenh.cs",
+              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormKhamBenh.cs",
+              "RelativeToolTip": "InpatientManagerSystem\\UI\\FormKhamBenh.cs",
+              "ViewState": "AgIAAL4BAAAAAAAAAAASwNIBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T12:02:15.453Z"
+              "WhenOpened": "2025-12-26T06:09:30.092Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 15,
+              "Title": "KhamBenhDAO.cs",
+              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\DAO\\KhamBenhDAO.cs",
+              "RelativeDocumentMoniker": "InpatientManagerSystem\\DAO\\KhamBenhDAO.cs",
+              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\DAO\\KhamBenhDAO.cs",
+              "RelativeToolTip": "InpatientManagerSystem\\DAO\\KhamBenhDAO.cs",
+              "ViewState": "AgIAAJkBAAAAAAAAAAASwAsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T06:06:14.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "KhamBenh.cs",
+              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\DTO\\KhamBenh.cs",
+              "RelativeDocumentMoniker": "InpatientManagerSystem\\DTO\\KhamBenh.cs",
+              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\DTO\\KhamBenh.cs",
+              "RelativeToolTip": "InpatientManagerSystem\\DTO\\KhamBenh.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA1wBAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T06:05:37.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HoSo.cs",
+              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\DTO\\HoSo.cs",
+              "RelativeDocumentMoniker": "InpatientManagerSystem\\DTO\\HoSo.cs",
+              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\DTO\\HoSo.cs",
+              "RelativeToolTip": "InpatientManagerSystem\\DTO\\HoSo.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAEwAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T06:18:00.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "KhamBenhBUS.cs",
+              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\BUS\\KhamBenhBUS.cs",
+              "RelativeDocumentMoniker": "InpatientManagerSystem\\BUS\\KhamBenhBUS.cs",
+              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\BUS\\KhamBenhBUS.cs",
+              "RelativeToolTip": "InpatientManagerSystem\\BUS\\KhamBenhBUS.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAASwA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T06:06:31.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FormHoSo.Designer.cs",
+              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormHoSo.Designer.cs",
+              "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\FormHoSo.Designer.cs",
+              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormHoSo.Designer.cs",
+              "RelativeToolTip": "InpatientManagerSystem\\UI\\FormHoSo.Designer.cs",
+              "ViewState": "AgIAAE4BAAAAAAAAAABRwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T06:20:13.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FormKhamBenh.Designer.cs",
+              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormKhamBenh.Designer.cs",
+              "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\FormKhamBenh.Designer.cs",
+              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormKhamBenh.Designer.cs",
+              "RelativeToolTip": "InpatientManagerSystem\\UI\\FormKhamBenh.Designer.cs",
+              "ViewState": "AgIAAIsBAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T06:07:42.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "FormThuoc.Designer.cs",
               "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormThuoc.Designer.cs",
               "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\FormThuoc.Designer.cs",
@@ -894,250 +449,7 @@
               "RelativeToolTip": "InpatientManagerSystem\\UI\\FormThuoc.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T12:20:15.945Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "WelcomePanel.cs [Design]",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\WelcomePanel.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\WelcomePanel.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\WelcomePanel.cs [Design]",
-              "RelativeToolTip": "InpatientManagerSystem\\UI\\WelcomePanel.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T05:55:38.183Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "FormPopupChiTietHoaDon.cs [Design]",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormPopupChiTietHoaDon.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\FormPopupChiTietHoaDon.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormPopupChiTietHoaDon.cs [Design]",
-              "RelativeToolTip": "InpatientManagerSystem\\UI\\FormPopupChiTietHoaDon.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T12:15:00.699Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "BenhNhan.cs [Design]",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\BenhNhan.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\BenhNhan.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\BenhNhan.cs [Design]",
-              "RelativeToolTip": "InpatientManagerSystem\\UI\\BenhNhan.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T05:00:05.937Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "KhamBenh.cs [Design]",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\KhamBenh.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\KhamBenh.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\KhamBenh.cs [Design]",
-              "RelativeToolTip": "InpatientManagerSystem\\UI\\KhamBenh.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T04:59:23.433Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "WelcomePanel.cs",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\WelcomePanel.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\WelcomePanel.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\WelcomePanel.cs",
-              "RelativeToolTip": "InpatientManagerSystem\\UI\\WelcomePanel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T05:54:41.96Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "FormPopupChiTietThuoc.cs [Design]",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormPopupChiTietThuoc.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\FormPopupChiTietThuoc.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormPopupChiTietThuoc.cs [Design]",
-              "RelativeToolTip": "InpatientManagerSystem\\UI\\FormPopupChiTietThuoc.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T12:15:01.429Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "FormPopupChiTietDonThuoc.cs [Design]",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormPopupChiTietDonThuoc.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\FormPopupChiTietDonThuoc.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\FormPopupChiTietDonThuoc.cs [Design]",
-              "RelativeToolTip": "InpatientManagerSystem\\UI\\FormPopupChiTietDonThuoc.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T12:14:59.405Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "BacSi.Designer.cs",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\BacSi.Designer.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\BacSi.Designer.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\BacSi.Designer.cs",
-              "RelativeToolTip": "InpatientManagerSystem\\UI\\BacSi.Designer.cs",
-              "ViewState": "AgIAAM0BAAAAAAAAAABhwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T05:43:27.828Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "QuanLiNguoiDung.cs [Design]",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\QuanLiNguoiDung.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\QuanLiNguoiDung.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\QuanLiNguoiDung.cs [Design]",
-              "RelativeToolTip": "InpatientManagerSystem\\UI\\QuanLiNguoiDung.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T05:32:46.058Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "BenhNhan.Designer.cs",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\BenhNhan.Designer.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\BenhNhan.Designer.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\BenhNhan.Designer.cs",
-              "RelativeToolTip": "InpatientManagerSystem\\UI\\BenhNhan.Designer.cs",
-              "ViewState": "AgIAALUBAAAAAAAAAMBdwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T05:45:16.699Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
-              "Title": "WelcomePanel.Designer.cs",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\WelcomePanel.Designer.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\WelcomePanel.Designer.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\WelcomePanel.Designer.cs",
-              "RelativeToolTip": "InpatientManagerSystem\\UI\\WelcomePanel.Designer.cs",
-              "ViewState": "AgIAAIIAAAAAAAAAACBjwIoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T05:55:03.236Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 60,
-              "Title": "DichVu.cs [Design]",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\DichVu.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\DichVu.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\DichVu.cs [Design]",
-              "RelativeToolTip": "InpatientManagerSystem\\UI\\DichVu.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T05:21:38.564Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 61,
-              "Title": "QuanLiNguoiDung.cs",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\QuanLiNguoiDung.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\QuanLiNguoiDung.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\QuanLiNguoiDung.cs",
-              "RelativeToolTip": "InpatientManagerSystem\\UI\\QuanLiNguoiDung.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T05:03:46.757Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 62,
-              "Title": "KhamBenh.Designer.cs",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\KhamBenh.Designer.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\KhamBenh.Designer.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\KhamBenh.Designer.cs",
-              "RelativeToolTip": "InpatientManagerSystem\\UI\\KhamBenh.Designer.cs",
-              "ViewState": "AgIAAH8BAAAAAAAAAMBdwA8AAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T05:31:11.259Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 63,
-              "Title": "BacSi.cs [Design]",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\BacSi.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\BacSi.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\BacSi.cs [Design]",
-              "RelativeToolTip": "InpatientManagerSystem\\UI\\BacSi.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T04:58:50.602Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 64,
-              "Title": "QuanLiNguoiDung.Designer.cs",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\QuanLiNguoiDung.Designer.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\QuanLiNguoiDung.Designer.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\QuanLiNguoiDung.Designer.cs",
-              "RelativeToolTip": "InpatientManagerSystem\\UI\\QuanLiNguoiDung.Designer.cs",
-              "ViewState": "AgIAALwBAAAAAAAAAMBdwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T05:36:38.864Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 65,
-              "Title": "KhamBenh.cs",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\KhamBenh.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\KhamBenh.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\KhamBenh.cs",
-              "RelativeToolTip": "InpatientManagerSystem\\UI\\KhamBenh.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T05:15:46.378Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 66,
-              "Title": "DichVu.Designer.cs",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\DichVu.Designer.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\UI\\DichVu.Designer.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\UI\\DichVu.Designer.cs",
-              "RelativeToolTip": "InpatientManagerSystem\\UI\\DichVu.Designer.cs",
-              "ViewState": "AgIAAIEBAAAAAAAAAIBZwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T05:10:36.572Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "FormMain.Designer.cs",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\FormMain.Designer.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\FormMain.Designer.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\FormMain.Designer.cs",
-              "RelativeToolTip": "InpatientManagerSystem\\FormMain.Designer.cs",
-              "ViewState": "AgIAAKABAAAAAAAAAEBVwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T05:02:04.287Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\Program.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\Program.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\Program.cs",
-              "RelativeToolTip": "InpatientManagerSystem\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T05:01:34.224Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "FormMain.cs",
-              "DocumentMoniker": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\FormMain.cs",
-              "RelativeDocumentMoniker": "InpatientManagerSystem\\FormMain.cs",
-              "ToolTip": "D:\\C#\\BV\\InpatientManagerSystem\\InpatientManagerSystem\\FormMain.cs",
-              "RelativeToolTip": "InpatientManagerSystem\\FormMain.cs",
-              "ViewState": "AgIAAJEAAAAAAAAAAABRwJQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-23T14:22:39.846Z"
+              "WhenOpened": "2025-12-26T06:13:52.811Z"
             }
           ]
         }

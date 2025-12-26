@@ -45,15 +45,16 @@ namespace InpatientManagerSystem
             this.txtMaThuoc.Location = new System.Drawing.Point(130, 20);
             this.txtMaThuoc.Name = "txtMaThuoc";
             this.txtMaThuoc.ReadOnly = true;
-            this.txtMaThuoc.Size = new System.Drawing.Size(200, 20);
+            this.txtMaThuoc.Size = new System.Drawing.Size(200, 22);
             this.txtMaThuoc.TabIndex = 7;
+            this.txtMaThuoc.TextChanged += new System.EventHandler(this.txtMaThuoc_TextChanged);
             // 
             // txtTenThuoc
             // 
             this.txtTenThuoc.Location = new System.Drawing.Point(130, 60);
             this.txtTenThuoc.Name = "txtTenThuoc";
             this.txtTenThuoc.ReadOnly = true;
-            this.txtTenThuoc.Size = new System.Drawing.Size(200, 20);
+            this.txtTenThuoc.Size = new System.Drawing.Size(200, 22);
             this.txtTenThuoc.TabIndex = 8;
             // 
             // txtDonVi
@@ -61,7 +62,7 @@ namespace InpatientManagerSystem
             this.txtDonVi.Location = new System.Drawing.Point(130, 100);
             this.txtDonVi.Name = "txtDonVi";
             this.txtDonVi.ReadOnly = true;
-            this.txtDonVi.Size = new System.Drawing.Size(200, 20);
+            this.txtDonVi.Size = new System.Drawing.Size(200, 22);
             this.txtDonVi.TabIndex = 9;
             // 
             // txtDonGia
@@ -69,21 +70,21 @@ namespace InpatientManagerSystem
             this.txtDonGia.Location = new System.Drawing.Point(130, 140);
             this.txtDonGia.Name = "txtDonGia";
             this.txtDonGia.ReadOnly = true;
-            this.txtDonGia.Size = new System.Drawing.Size(200, 20);
+            this.txtDonGia.Size = new System.Drawing.Size(200, 22);
             this.txtDonGia.TabIndex = 10;
             // 
             // txtSoLuong
             // 
             this.txtSoLuong.Location = new System.Drawing.Point(130, 180);
             this.txtSoLuong.Name = "txtSoLuong";
-            this.txtSoLuong.Size = new System.Drawing.Size(200, 20);
+            this.txtSoLuong.Size = new System.Drawing.Size(200, 22);
             this.txtSoLuong.TabIndex = 11;
             // 
             // txtLieuLuong
             // 
             this.txtLieuLuong.Location = new System.Drawing.Point(130, 220);
             this.txtLieuLuong.Name = "txtLieuLuong";
-            this.txtLieuLuong.Size = new System.Drawing.Size(200, 20);
+            this.txtLieuLuong.Size = new System.Drawing.Size(200, 22);
             this.txtLieuLuong.TabIndex = 12;
             // 
             // txtGhiChu

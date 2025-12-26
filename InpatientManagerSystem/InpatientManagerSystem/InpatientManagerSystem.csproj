@@ -112,10 +112,20 @@
   <ItemGroup>
     <Compile Include="BUS\BacSiBUS.cs" />
     <Compile Include="BUS\BenhNhanBUS.cs" />
+    <Compile Include="BUS\ChiTietDonThuocBUS.cs" />
+    <Compile Include="BUS\DonThuocBUS.cs" />
+    <Compile Include="BUS\HoSoBUS.cs" />
+    <Compile Include="BUS\KhamBenhBUS.cs" />
+    <Compile Include="BUS\ThuocBUS.cs" />
     <Compile Include="BUS\DichVuBUS.cs" />
     <Compile Include="BUS\PhongBUS.cs" />
     <Compile Include="DAO\BacSiDAO.cs" />
     <Compile Include="DAO\BenhNhanDAO.cs" />
+    <Compile Include="DAO\ChiTietDonThuocDAO.cs" />
+    <Compile Include="DAO\DonThuocDAO.cs" />
+    <Compile Include="DAO\HoSoDAO.cs" />
+    <Compile Include="DAO\KhamBenhDAO.cs" />
+    <Compile Include="DAO\ThuocDAO.cs" />
     <Compile Include="DAO\DichVuDAO.cs" />
     <Compile Include="DAO\NguoiDungDAO.cs" />
     <Compile Include="DAO\DBConnection.cs" />
@@ -123,6 +133,11 @@
     <Compile Include="DAO\PhongDAO.cs" />
     <Compile Include="DTO\BacSiDTO.cs" />
     <Compile Include="DTO\BenhNhanDTO.cs" />
+    <Compile Include="DTO\ChiTietDonThuocDTO.cs" />
+    <Compile Include="DTO\DonThuocDTO.cs" />
+    <Compile Include="DTO\HoSo.cs" />
+    <Compile Include="DTO\KhamBenh.cs" />
+    <Compile Include="DTO\ThuocDTO.cs" />
     <Compile Include="DTO\DichVuDTO.cs" />
     <Compile Include="DTO\NguoiDungDTO.cs" />
     <Compile Include="DTO\PhongDTO.cs" />
@@ -299,6 +314,9 @@
     <EmbeddedResource Include="UI\FormPhong.resx">
       <DependentUpon>FormPhong.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="COMBOBOX_FILTER_GUIDE.md" />
+    <None Include="FORMKHAMBENH_GUIDE.md" />
+    <None Include="FORMKHAMBENH_TEXTBOX_READONLY.md" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -309,6 +327,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="TESTING_GUIDE.md" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -325,6 +344,8 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="SQL\FixTriggers.sql" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
